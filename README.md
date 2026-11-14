@@ -40,6 +40,28 @@ Details, dates and links for every row: [competitions/google-qcc/evidence/USES.m
 * Public forks by other users: 0 visible. Notebooks of others with my dataset as input: 1
   ([mizeroluckygall](https://www.kaggle.com/code/mizeroluckygall/quantum-circuits-one-toffoli-less-in-invsqrt)).
 
+### The notebooks that use or credit my work
+
+33 public notebooks by 27 other authors; the 15 most voted are below, all of them in [competitions/google-qcc/evidence/USES.md](competitions/google-qcc/evidence/USES.md).
+
+| # | Notebook (link) | Author | Votes | Date | What of mine it uses / how it credits me |
+|---:|---|---|---:|---|---|
+| 1 | [24-94-lb-verified-three-task-portfolio](https://www.kaggle.com/code/alexchilton/24-94-lb-verified-three-task-portfolio) | alexchilton | 165 | 2026-11-12 | file reuse; text credit: invsqrt 9c708f7b (splice at clean cuts); notebook input: lb-25-367-verified-portfolio-dqi-readout-fix; cites our file(s): DQI 245527f6 (readout-window transplant); DQI 5778cdd5 (two retained products); invsqrt 9c708f7b ( |
+| 2 | [the-dataset-is-public-now-enjoy](https://www.kaggle.com/code/heliosli/the-dataset-is-public-now-enjoy) | heliosli | 119 | 2026-11-12 | file reuse; text credit: invsqrt 9c708f7b (splice at clean cuts); invsqrt e46d90c3 (dead-write fix); cites our file(s): invsqrt e46d90c3 (dead-write fix) |
+| 3 | [the-real-150k-was-the-friends-we-made](https://www.kaggle.com/code/manwithacat/the-real-150k-was-the-friends-we-made) | manwithacat | 94 | 2026-11-12 | file reuse; builds on; hash cited: invsqrt 9c708f7b (splice at clean cuts); chemistry npz 54bc3e71 (W/H2_I refit, v4); invsqrt 1ba197b0 (manwithacat): our q21 measure-first edit (e46d90c3) plus a second edit; his notes credit the identity to K. Tymchishin |
+| 4 | [google-quantum-ai-deep-eda-with-analogies](https://www.kaggle.com/code/evgendvorkin/google-quantum-ai-deep-eda-with-analogies) | evgendvorkin | 64 | 2026-11-12 | file reuse; text credit: invsqrt 9c708f7b (splice at clean cuts); credit in text |
+| 5 | [vqcc-hedge-wizardry-notebook](https://www.kaggle.com/code/manwithacat/vqcc-hedge-wizardry-notebook) | manwithacat | 62 | 2026-11-14 | file reuse; builds on; text credit: chemistry npz 54bc3e71 (W/H2_I refit, v4); invsqrt 1ba197b0 (manwithacat): our q21 measure-first edit (e46d90c3) plus a second edit; his notes credit the identity to K. Tymchishin / M. H. Hosen and say we found the q21 e |
+| 6 | [quantum-circuits-retained-product-audit](https://www.kaggle.com/code/kirilltym/quantum-circuits-retained-product-audit) | kirilltym | 56 | 2026-11-12 | file reuse: invsqrt 9c708f7b (splice at clean cuts) |
+| 7 | [qcc-v25-coded-word-chemistry](https://www.kaggle.com/code/maoxin123/qcc-v25-coded-word-chemistry) | maoxin123 | 54 | 2026-11-12 | file reuse: invsqrt 9c708f7b (splice at clean cuts) |
+| 8 | [qcc-gap-3-residue-repair-and-c43-native-compiler](https://www.kaggle.com/code/atakanaldemir/qcc-gap-3-residue-repair-and-c43-native-compiler) | atakanaldemir | 50 | 2026-11-14 | file reuse; text credit: invsqrt e46d90c3 (dead-write fix); cites our file(s): invsqrt e46d90c3 (dead-write fix) |
+| 9 | [qai-fewer-toffolis-same-qubits-lb-27-30687](https://www.kaggle.com/code/areebbb/qai-fewer-toffolis-same-qubits-lb-27-30687) | areebbb | 47 | 2026-11-12 | file reuse; text credit: invsqrt 9c708f7b (splice at clean cuts); cites our file(s): invsqrt 9c708f7b (splice at clean cuts); invsqrt e46d90c3 (dead-write fix) |
+| 10 | [quantum-ai-fast-runner-starter-notebook](https://www.kaggle.com/code/ozertuu/quantum-ai-fast-runner-starter-notebook) | ozertuu | 30 | 2026-11-12 | file reuse: invsqrt 9c708f7b (splice at clean cuts) |
+| 11 | [quantum-circuits-from-zero-1-sqrt-x-explained](https://www.kaggle.com/code/sheroleg/quantum-circuits-from-zero-1-sqrt-x-explained) | sheroleg | 26 | 2026-11-12 | file reuse: invsqrt 9c708f7b (splice at clean cuts) |
+| 12 | [qcc-v27-4033-toffoli-coded-word-chemistry](https://www.kaggle.com/code/maoxin123/qcc-v27-4033-toffoli-coded-word-chemistry) | maoxin123 | 18 | 2026-11-14 | file reuse; text credit: invsqrt e46d90c3 (dead-write fix); cites our file(s): invsqrt e46d90c3 (dead-write fix) |
+| 13 | [black-cat-quantum-heist-three-locks](https://www.kaggle.com/code/lucifer19/black-cat-quantum-heist-three-locks) | lucifer19 | 15 | 2026-11-14 | text credit: cites our file(s): invsqrt 9c708f7b (splice at clean cuts); invsqrt e46d90c3 (dead-write fix) |
+| 14 | [quantum-circuits-one-toffoli-less-in-invsqrt](https://www.kaggle.com/code/mizeroluckygall/quantum-circuits-one-toffoli-less-in-invsqrt) | mizeroluckygall | 12 | 2026-11-14 | file reuse; text credit: invsqrt e46d90c3 (dead-write fix); dataset input: qcc-circuit-atlas; cites our file(s): invsqrt e46d90c3 (dead-write fix) |
+| 15 | [qcc-terminal-readout-and-phase-folds](https://www.kaggle.com/code/atakanaldemir/qcc-terminal-readout-and-phase-folds) | atakanaldemir | 10 | 2026-11-14 | file reuse; text credit: invsqrt e46d90c3 (dead-write fix); cites our file(s): invsqrt e46d90c3 (dead-write fix) |
+
 ## How to verify
 
 * **Every claim links to a Kaggle page.** Notebook pages show the score of each version, its votes, inputs and outputs.
@@ -57,7 +79,7 @@ README.md                         this page
 competitions/
   google-qcc/                     Google Verifiable Quantum Circuit Compilation
     README.md                     the competition, my contributions, timeline, scores
-    notebooks/                    sources of my 4 public notebooks (outputs stripped)
+    notebooks/                    all public versions of my 4 notebooks, one folder each
     evidence/                     USES.md + uses.csv: who used what, and how we know
   playground-s6e11/               Playground Series S6E11 (README + notebook source)
 datasets/README.md                my public datasets (links only, no data)

@@ -40,21 +40,48 @@ from that notebook version; "local" = geometric mean computed with the unchanged
 
 Medals: bronze for three of the four public notebooks of this competition (LB 25.367, QCC 27.30 Free CZ Fix, QCC 27.30 What Works); the competition closes on 2027-01-20.
 
-## Notebooks in this folder
+## Notebooks in this folder: every public version
 
-[`notebooks/`](notebooks/) holds the sources of the four public notebooks, pulled with
-`kaggle kernels pull asteriospanoras/<slug>` on 2026-11-15, outputs stripped. They run on Kaggle (they need the
-competition's `kickmix` package and other authors' public files as inputs). Two changes against the Kaggle sources,
-both made so that this repository holds no circuit, weight or local-path data:
+Each notebook has its own folder with **all of its public versions** (`v01.ipynb`, `v02.ipynb`, ...) and a README
+listing, per version, what changed, the leaderboard score of the submission made from it, and the public notebooks
+that use or credit it:
 
-* `qcc-27-30-what-works-what-fails-and-why.ipynb`: the embedded refitted chemistry weights (`REFIT_B64`, an
-  lzma-compressed `.npz`) were removed; the full cell is in the Kaggle notebook.
-* `qcc-27-3122-frontier-finer-chemistry-refit.ipynb`: inside the embedded refit code package (`PKG_B64`), one default
-  path for the verifiers (used only when the environment variable `QCC_VERIFIERS` is unset) was replaced by `verifiers`.
-* Links to the analysis notebook under its earlier name were updated to its current address.
+| Notebook | Versions | Folder |
+|---|---:|---|
+| LB 25.367 \| Verified Portfolio + DQI Readout Fix | 5 | [notebooks/lb-25-367-verified-portfolio-dqi-readout-fix](notebooks/lb-25-367-verified-portfolio-dqi-readout-fix/) |
+| QCC 27.30 \| Public Frontier + Free CZ Fix in invsq | 6 | [notebooks/qcc-27-30-public-frontier-free-cz-fix-in-invsq](notebooks/qcc-27-30-public-frontier-free-cz-fix-in-invsq/) |
+| QCC 27.30 \| What Works, What Fails and Why | 12 | [notebooks/qcc-27-30-what-works-what-fails-and-why](notebooks/qcc-27-30-what-works-what-fails-and-why/) |
+| QCC 27.3122 \| Frontier + Finer Chemistry Refit | 6 | [notebooks/qcc-27-3122-frontier-finer-chemistry-refit](notebooks/qcc-27-3122-frontier-finer-chemistry-refit/) |
 
-No circuit files (`.kmb`, `.kmx`), weight files (`.npz`) or `submission.zip` are in this repository. To get a
-submission, open a notebook on Kaggle and follow its instructions there.
+Sources were pulled with `kaggle kernels pull asteriospanoras/<slug>/<version>` on 2026-11-15, outputs stripped. They
+run on Kaggle (they need the competition's `kickmix` package and other authors' public files as inputs). So that this
+repository holds no circuit, weight or local-path data: embedded refitted chemistry weights (base64 blobs) were
+replaced by `REMOVED_EMBEDDED_BINARY` (the full cells are on Kaggle), local default paths inside embedded code zips
+were removed, and links to earlier notebook names point to the current addresses. No circuit files (`.kmb`, `.kmx`),
+weight files (`.npz`) or `submission.zip` are in this repository.
+
+## My leaderboard progression
+
+Public leaderboard scores of my submissions (higher is better). The October entries came from private experiments;
+the November ones were each made from a public notebook version listed above.
+
+| Date (UTC) | Public score |
+|---|---|
+| 2026-10-23 | 1.02199 |
+| 2026-10-26 | 15.14394 |
+| 2026-10-26 | 19.57899 |
+| 2026-10-27 | 21.37712 |
+| 2026-10-28 | 22.70030 |
+| 2026-10-29 | 22.86838 |
+| 2026-10-30 | 22.99563 |
+| 2026-10-31 | 23.17996 |
+| 2026-11-11 | 25.36727 (LB 25.367 v1) |
+| 2026-11-12 | 25.39570 (LB 25.367 v4) |
+| 2026-11-12 | 25.40482 (LB 25.367 v5) |
+| 2026-11-12 | 25.44953 (QCC 27.30 Free CZ v1) |
+| 2026-11-14 | 27.30241 (QCC 27.30 Free CZ v5) |
+| 2026-11-14 | 27.30670 (QCC 27.3122 v2) |
+| 2026-11-14 | **27.31220** (QCC 27.3122 v5) |
 
 ## Evidence that other people used this work
 
