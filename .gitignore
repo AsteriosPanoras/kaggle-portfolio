@@ -1,0 +1,9 @@
+_work/
+__pycache__/
+.ipynb_checkpoints/
+*.kmb
+*.kmx
+*.npz
+*.kmb.xz
+submission.zip
+.DS_Store
