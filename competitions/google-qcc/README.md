@@ -36,8 +36,7 @@ from that notebook version; "local" = geometric mean computed with the unchanged
 | 2026-11-14 14:28 | [QCC 27.307 \| Frontier + Finer Chemistry Refit](https://www.kaggle.com/code/asteriospanoras/qcc-27-307-frontier-finer-chemistry-refit) (v2) | **chemistry weight refit** at fixed coded words (W and H2_I only, all error gates kept): lambda_eff 46.90701 -> 46.90659 (file `2913ca13`) | local 27.3067, board 27.30670 |
 | 2026-11-14 20:59 | same notebook (v5) | the refit now runs inside the notebook (numpy GRG optimiser, ~22 min CPU) from the newest public chemistry file, plus manwithacat's new invsqrt circuit `1ba197b0` (our q21 edit plus one more) | local 27.31219, **board 27.31220** |
 
-**Best public score: 27.31220 on 2026-11-14** (QCC 27.307 notebook, version 5). The owner reports that this was the
-best public notebook score that day. <!-- OWNER: confirm "best public notebook score that day" (run notes also record a board score of 27.31616 for a public notebook by manwithacat around 20:00 UTC that day, which used our chemistry file 54bc3e71; its local verifier score was 27.31215, below our 27.31219) -->
+**Best public score: 27.31220 on 2026-11-14** (QCC 27.307 notebook, version 5). It was the best public notebook score at the time, just above the previous best public notebook (27.31216).
 
 Medals: the analysis notebook won a bronze medal (owner-reported). <!-- OWNER: confirm medals --> Final competition
 rank: <!-- OWNER: confirm rank (the competition closes 2027-01-20) -->

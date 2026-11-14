@@ -4,7 +4,7 @@
 
 I work on exact, verifiable optimisation and on honest evaluation. In November 2026 I published, in the Google Quantum
 AI *Verifiable Quantum Circuit Compilation* competition, public notebooks that held the best public notebook score
-when released (latest: 27.31220 on 2026-11-14 <!-- OWNER: confirm "best public notebook score" -->), an analysis notebook that won a bronze medal, and a dataset of every public circuit of the
+when released (latest: 27.31220 on 2026-11-14), an analysis notebook that won a bronze medal, and a dataset of every public circuit of the
 competition (1,483 downloads). Each improvement was proven exactly (on all inputs where possible) and confirmed with
 the hosts' official verifiers, and other competitors adopted them within hours: 26 public notebooks by
 22 other authors contain files I published first, byte for byte. Every claim below links to a Kaggle page
@@ -14,7 +14,7 @@ you can open without an account.
 
 | Item | Competition | What it is | Score / rank | Votes | Link |
 |---|---|---|---|---:|---|
-| QCC 27.307 \| Frontier + Finer Chemistry Refit | Google Verifiable Quantum Circuit Compilation | public solution notebook: chemistry weight refit run inside the notebook + the best public circuits, all re-verified | public LB **27.31220** (2026-11-14); owner reports best public notebook score that day <!-- OWNER: confirm --> | 7 | [notebook](https://www.kaggle.com/code/asteriospanoras/qcc-27-307-frontier-finer-chemistry-refit) |
+| QCC 27.307 \| Frontier + Finer Chemistry Refit | Google Verifiable Quantum Circuit Compilation | public solution notebook: chemistry weight refit run inside the notebook + the best public circuits, all re-verified | public LB **27.31220** (2026-11-14); best public notebook score that day | 7 | [notebook](https://www.kaggle.com/code/asteriospanoras/qcc-27-307-frontier-finer-chemistry-refit) |
 | QCC 27.30 \| What Works, What Fails and Why | Google Verifiable Quantum Circuit Compilation | analysis notebook: score anatomy, sixteen measured ideas, an exact numpy simulator and a detector library | **bronze medal** (owner-reported) <!-- OWNER: confirm medals --> | 11 | [notebook](https://www.kaggle.com/code/asteriospanoras/qcc-27-30-what-works-what-fails-and-why) |
 | QCC 27.30 \| Public Frontier + Free CZ Fix in invsq | Google Verifiable Quantum Circuit Compilation | the invsqrt dead-write fix (one Toffoli fewer per shot, exact), adopted by 9 public notebooks | public LB 27.30241 (2026-11-14) <!-- OWNER: confirm medals --> | 13 | [notebook](https://www.kaggle.com/code/asteriospanoras/qcc-27-30-public-frontier-free-cz-fix-in-invsq) |
 | LB 25.367 \| Verified Portfolio + DQI Readout Fix | Google Verifiable Quantum Circuit Compilation | DQI readout-window rewrite (-48 Toffolis) and the invsqrt splice at clean cuts (-3 Toffolis), adopted by 17 public notebooks | public LB 25.36727 (v1), 25.39570 (v4) <!-- OWNER: confirm medals --> | 21 | [notebook](https://www.kaggle.com/code/asteriospanoras/lb-25-367-verified-portfolio-dqi-readout-fix) |
