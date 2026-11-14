@@ -33,13 +33,12 @@ from that notebook version; "local" = geometric mean computed with the unchanged
 | 2026-11-12 | [QCC 27.30 \| Public Frontier + Free CZ Fix in invsq](https://www.kaggle.com/code/asteriospanoras/qcc-27-30-public-frontier-free-cz-fix-in-invsq) (v1, then titled "QCC 25.449") | portfolio on maoxin123's 392k-Toffoli DQI decoder with our invsqrt splice | local 25.44954, board 25.44953 |
 | 2026-11-14 09:47 | same notebook (v5) | **invsqrt dead-write fix**: a Toffoli whose target is only measured afterwards is replaced by measuring first plus a classically controlled `CZ`; exact on all 3,133,452 inputs and confirmed by the official verifier (invsqrt cost 78,765.51 -> 78,719.53, file `e46d90c3`) | local 27.3024, board 27.30241 |
 | 2026-11-14 | [QCC 27.30 \| What Works, What Fails and Why](https://www.kaggle.com/code/asteriospanoras/qcc-27-30-what-works-what-fails-and-why) | analysis notebook: the score and its exchange rates, sixteen measured ideas and why most failed, the diagnosis method, an exact numpy simulator (`kmsim`) and a detector library (`qccscope`); same submission as the 27.307 notebook | bronze medal (owner-reported) |
-| 2026-11-14 14:28 | [QCC 27.307 \| Frontier + Finer Chemistry Refit](https://www.kaggle.com/code/asteriospanoras/qcc-27-307-frontier-finer-chemistry-refit) (v2) | **chemistry weight refit** at fixed coded words (W and H2_I only, all error gates kept): lambda_eff 46.90701 -> 46.90659 (file `2913ca13`) | local 27.3067, board 27.30670 |
+| 2026-11-14 14:28 | [QCC 27.3122 \| Frontier + Finer Chemistry Refit](https://www.kaggle.com/code/asteriospanoras/qcc-27-3122-frontier-finer-chemistry-refit) (v2) | **chemistry weight refit** at fixed coded words (W and H2_I only, all error gates kept): lambda_eff 46.90701 -> 46.90659 (file `2913ca13`) | local 27.3067, board 27.30670 |
 | 2026-11-14 20:59 | same notebook (v5) | the refit now runs inside the notebook (numpy GRG optimiser, ~22 min CPU) from the newest public chemistry file, plus manwithacat's new invsqrt circuit `1ba197b0` (our q21 edit plus one more) | local 27.31219, **board 27.31220** |
 
-**Best public score: 27.31220 on 2026-11-14** (QCC 27.307 notebook, version 5). It was the best public notebook score at the time, just above the previous best public notebook (27.31216).
+**Best public score: 27.31220 on 2026-11-14** (QCC 27.3122 notebook, version 5). It was the best public notebook score at the time, just above the previous best public notebook (27.31216).
 
-Medals: the analysis notebook won a bronze medal (owner-reported). <!-- OWNER: confirm medals --> Final competition
-rank: <!-- OWNER: confirm rank (the competition closes 2027-01-20) -->
+Medals: bronze for three of the four public notebooks of this competition (LB 25.367, QCC 27.30 Free CZ Fix, QCC 27.30 What Works); the competition closes on 2027-01-20.
 
 ## Notebooks in this folder
 
@@ -50,7 +49,7 @@ both made so that this repository holds no circuit, weight or local-path data:
 
 * `qcc-27-30-what-works-what-fails-and-why.ipynb`: the embedded refitted chemistry weights (`REFIT_B64`, an
   lzma-compressed `.npz`) were removed; the full cell is in the Kaggle notebook.
-* `qcc-27-307-frontier-finer-chemistry-refit.ipynb`: inside the embedded refit code package (`PKG_B64`), one default
+* `qcc-27-3122-frontier-finer-chemistry-refit.ipynb`: inside the embedded refit code package (`PKG_B64`), one default
   path for the verifiers (used only when the environment variable `QCC_VERIFIERS` is unset) was replaced by `verifiers`.
 * Links to the analysis notebook under its earlier name were updated to its current address.
 
