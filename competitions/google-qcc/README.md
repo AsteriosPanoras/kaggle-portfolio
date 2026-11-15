@@ -38,7 +38,7 @@ from that notebook version; "local" = geometric mean computed with the unchanged
 
 **Best public score: 27.31220 on 2026-11-14** (QCC 27.3122 notebook, version 5). It was the best public notebook score at the time, just above the previous best public notebook (27.31216).
 
-Medals: bronze for three of the four public notebooks of this competition (LB 25.367, QCC 27.30 Free CZ Fix, QCC 27.30 What Works); the competition closes on 2027-01-20.
+Medals: bronze for all four public notebooks of this competition (LB 25.367, QCC 27.3122, QCC 27.30 Free CZ Fix, QCC 27.30 What Works); with the S6E11 bronze they made me a Kaggle Notebooks Expert (November 2026); the competition closes on 2027-01-20.
 
 ## Notebooks in this folder: every public version
 

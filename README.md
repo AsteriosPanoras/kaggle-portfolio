@@ -1,28 +1,28 @@
 # Asterios Panoras: Kaggle portfolio
 
-**Kaggle profile: [kaggle.com/asteriospanoras](https://www.kaggle.com/asteriospanoras)**
+**Kaggle profile: [kaggle.com/asteriospanoras](https://www.kaggle.com/asteriospanoras)** · **Kaggle Notebooks Expert** (November 2026) · 5 bronze notebook medals
 
 I work on exact, verifiable optimisation and on honest evaluation. In November 2026 I published, in the Google Quantum
 AI *Verifiable Quantum Circuit Compilation* competition, public notebooks that held the best public notebook score
 when released (latest: 27.31220 on 2026-11-14) and a dataset of every public circuit of the
-competition (1,483 downloads). Each improvement was proven exactly (on all inputs where possible) and confirmed with
+competition (1,490 downloads). Each improvement was proven exactly (on all inputs where possible) and confirmed with
 the hosts' official verifiers, and other competitors adopted them within hours: 26 public notebooks by
-22 other authors contain files I published first, byte for byte. Four of my public notebooks have won bronze medals (three in this competition, one in Playground S6E11). Every claim below links to a Kaggle page
+22 other authors contain files I published first, byte for byte. All five of my public notebooks have won bronze medals (four in this competition, one in Playground S6E11), which made me a Kaggle Notebooks Expert. Every claim below links to a Kaggle page
 you can open without an account.
 
 ## Highlights
 
 | Item | Competition | What it is | Score / rank | Votes | Link |
 |---|---|---|---|---:|---|
-| QCC 27.3122 \| Frontier + Finer Chemistry Refit | Google Verifiable Quantum Circuit Compilation | public solution notebook: chemistry weight refit run inside the notebook + the best public circuits, all re-verified | public LB **27.31220** (2026-11-14); best public notebook score that day | 7 | [notebook](https://www.kaggle.com/code/asteriospanoras/qcc-27-3122-frontier-finer-chemistry-refit) |
-| QCC 27.30 \| What Works, What Fails and Why | Google Verifiable Quantum Circuit Compilation | analysis notebook: score anatomy, sixteen measured ideas, an exact numpy simulator and a detector library | **bronze medal** | 11 | [notebook](https://www.kaggle.com/code/asteriospanoras/qcc-27-30-what-works-what-fails-and-why) |
-| QCC 27.30 \| Public Frontier + Free CZ Fix in invsq | Google Verifiable Quantum Circuit Compilation | the invsqrt dead-write fix (one Toffoli fewer per shot, exact), adopted by 9 public notebooks | **bronze medal**; public LB 27.30241 (2026-11-14) | 13 | [notebook](https://www.kaggle.com/code/asteriospanoras/qcc-27-30-public-frontier-free-cz-fix-in-invsq) |
+| QCC 27.3122 \| Frontier + Finer Chemistry Refit | Google Verifiable Quantum Circuit Compilation | public solution notebook: chemistry weight refit run inside the notebook + the best public circuits, all re-verified | **bronze medal**; public LB **27.31220** (2026-11-14); best public notebook score that day | 15 | [notebook](https://www.kaggle.com/code/asteriospanoras/qcc-27-3122-frontier-finer-chemistry-refit) |
+| QCC 27.30 \| What Works, What Fails and Why | Google Verifiable Quantum Circuit Compilation | analysis notebook: score anatomy, sixteen measured ideas, an exact numpy simulator and a detector library | **bronze medal** | 12 | [notebook](https://www.kaggle.com/code/asteriospanoras/qcc-27-30-what-works-what-fails-and-why) |
+| QCC 27.30 \| Public Frontier + Free CZ Fix in invsq | Google Verifiable Quantum Circuit Compilation | the invsqrt dead-write fix (one Toffoli fewer per shot, exact), adopted by 9 public notebooks | **bronze medal**; public LB 27.30241 (2026-11-14) | 14 | [notebook](https://www.kaggle.com/code/asteriospanoras/qcc-27-30-public-frontier-free-cz-fix-in-invsq) |
 | LB 25.367 \| Verified Portfolio + DQI Readout Fix | Google Verifiable Quantum Circuit Compilation | DQI readout-window rewrite (-48 Toffolis) and the invsqrt splice at clean cuts (-3 Toffolis), adopted by 17 public notebooks | **bronze medal**; public LB 25.40482 (best version) | 21 | [notebook](https://www.kaggle.com/code/asteriospanoras/lb-25-367-verified-portfolio-dqi-readout-fix) |
-| QCC Circuit Atlas | Google Verifiable Quantum Circuit Compilation | dataset: every public circuit file, deduplicated by SHA-256 and credited, with tools | 1,483 downloads | 1 | [dataset](https://www.kaggle.com/datasets/asteriospanoras/qcc-circuit-atlas) |
-| S6E11 \| How Much of the Public Top Is Real? | Playground Series S6E11 | analysis: public-leaderboard noise, the winner's curse, nested-CV replay of ladder steps | **bronze medal**; public LB 0.9539 | 11 | [notebook](https://www.kaggle.com/code/asteriospanoras/s6e11-how-much-of-the-public-top-is-real) |
+| QCC Circuit Atlas | Google Verifiable Quantum Circuit Compilation | dataset: every public circuit file, deduplicated by SHA-256 and credited, with tools | 1,490 downloads; v2 adds our verified contributions and a refit toolkit | 1 | [dataset](https://www.kaggle.com/datasets/asteriospanoras/qcc-circuit-atlas) |
+| S6E11 \| How Much of the Public Top Is Real? | Playground Series S6E11 | analysis: public-leaderboard noise, the winner's curse, nested-CV replay of ladder steps | **bronze medal**; public LB 0.9539 | 13 | [notebook](https://www.kaggle.com/code/asteriospanoras/s6e11-how-much-of-the-public-top-is-real) |
 | Supervisory layer for HVAC (paper code) | research | code, protocols and per-episode results of the paper "Re-select or Learn?" | 41 downloads | 1 | [dataset](https://www.kaggle.com/datasets/asteriospanoras/supervisory-layer-hvac) · [GitHub](https://github.com/AsteriosPanoras/supervisory-layer-hvac) |
 
-Votes as listed by the Kaggle CLI on 2026-11-15.
+Votes as shown on Kaggle on 2026-11-15.
 
 ## Used by others
 

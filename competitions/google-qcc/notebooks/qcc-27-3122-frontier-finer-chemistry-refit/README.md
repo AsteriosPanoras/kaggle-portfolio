@@ -1,6 +1,6 @@
 # QCC 27.3122 | Frontier + Finer Chemistry Refit
 
-Kaggle: [https://www.kaggle.com/code/asteriospanoras/qcc-27-3122-frontier-finer-chemistry-refit](https://www.kaggle.com/code/asteriospanoras/qcc-27-3122-frontier-finer-chemistry-refit) · medal: **—** · versions: 6
+Kaggle: [https://www.kaggle.com/code/asteriospanoras/qcc-27-3122-frontier-finer-chemistry-refit](https://www.kaggle.com/code/asteriospanoras/qcc-27-3122-frontier-finer-chemistry-refit) · medal: **bronze** · versions: 6
 
 ## Every public version
 
