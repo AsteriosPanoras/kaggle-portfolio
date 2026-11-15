@@ -6,8 +6,8 @@ I work on exact, verifiable optimisation and on honest evaluation. In November 2
 AI *Verifiable Quantum Circuit Compilation* competition, public notebooks that held the best public notebook score
 when released (latest: 27.31220 on 2026-11-14) and a dataset of every public circuit of the
 competition (1,490 downloads). Each improvement was proven exactly (on all inputs where possible) and confirmed with
-the hosts' official verifiers, and other competitors adopted them within hours: 26 public notebooks by
-22 other authors contain files I published first, byte for byte. All five of my public notebooks have won bronze medals (four in this competition, one in Playground S6E11), which made me a Kaggle Notebooks Expert. Every claim below links to a Kaggle page
+the hosts' official verifiers, and other competitors adopted them within hours: 41 public notebooks by 34 other authors use or credit my work
+(counting every public version), 30 of them shipping files I published first, byte for byte. All five of my public notebooks have won bronze medals (four in this competition, one in Playground S6E11), which made me a Kaggle Notebooks Expert. Every claim below links to a Kaggle page
 you can open without an account.
 
 ## Highlights
@@ -28,15 +28,19 @@ Votes as shown on Kaggle on 2026-11-15.
 
 Details, dates and links for every row: [competitions/google-qcc/evidence/USES.md](competitions/google-qcc/evidence/USES.md).
 
-* **26 public notebooks by 22 authors** ship files I published first (identical SHA-256), e.g.
+* **41 public notebooks by 34 other authors** use or credit my work in at least one public version; 10 of them show it
+  only in older versions (authors change files between versions), so every row lists the versions where it appears.
+* **30 public notebooks by 26 authors** ship files I published first (identical SHA-256), e.g.
   the invsqrt splice `9c708f7b` (17 notebooks, including Alex Chilton's top-voted portfolio) and the dead-write fix
   `e46d90c3` (9 notebooks, including Atakan Aldemir's and maoxin123's frontier notebooks; the first within two hours of release).
 * **3 further notebooks** ship manwithacat's invsqrt `1ba197b0`, which contains the same q21 edit as my dead-write
   fix plus a second edit (his notes say I found the q21 edit independently of the identity's earlier credit).
-* **23 public notebooks by 20 authors** credit me by name in their text, e.g. *"the measured-CZ edit by
+* **33 public notebooks by 28 authors** credit me by name in their text, e.g. *"the measured-CZ edit by
   Asterios Panoras"* (maoxin123) and a notebook titled
   [vqcc-v52-asterios-invsqrt-20261114](https://www.kaggle.com/code/xianyu3/vqcc-v52-asterios-invsqrt-20261114) (xianyu3).
 * My chemistry weight refit (`54bc3e71`) is in manwithacat's notebooks, and `2913ca13` in Leo Tang's.
+* **10 notebooks by 8 authors** cite the SHA-256 of my files in their receipts; Alex Chilton's portfolio (165 votes)
+  attached my notebook's output as an input in versions 140-153.
 * Public forks by other users: 0 visible. Notebooks of others with my dataset as input: 1
   ([mizeroluckygall](https://www.kaggle.com/code/mizeroluckygall/quantum-circuits-one-toffoli-less-in-invsqrt)).
 
