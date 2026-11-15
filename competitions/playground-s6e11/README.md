@@ -6,7 +6,7 @@ Competition: [kaggle.com/competitions/playground-series-s6e11](https://www.kaggl
 
 [S6E11 | How Much of the Public Top Is Real?](https://www.kaggle.com/code/asteriospanoras/s6e11-how-much-of-the-public-top-is-real)
 (source: [`notebooks/s6e11-how-much-of-the-public-top-is-real/`](notebooks/s6e11-how-much-of-the-public-top-is-real/),
-pulled 2026-11-15, outputs stripped).
+all 10 public versions pulled 2026-11-15, outputs stripped; 18 votes on 2026-11-15).
 
 An analysis of the public leaderboard "ladders" (sequences of small blending steps, each kept because it raised the
 public score). Using the public nested out-of-fold predictions of a top-band stack as a stand-in for the hidden test
