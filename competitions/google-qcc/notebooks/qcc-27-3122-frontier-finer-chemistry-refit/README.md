@@ -4,7 +4,7 @@ Kaggle: [https://www.kaggle.com/code/asteriospanoras/qcc-27-3122-frontier-finer-
 
 ## Status on 2026-11-15
 
-Unchanged since version 6 (2026-11-14). Its best submission, version 5, scored 27.31220 on 2026-11-14; on 2026-11-15 the public score moved to 28.06 with other authors' v13 circuits (see the [Atlas Toolkit notebook](../qcc-atlas-toolkit-in-notebook-chemistry-refit/)).
+Unchanged since version 6 (2026-11-14). Its best submission, version 5, scored 27.31220 on 2026-11-14; on 2026-11-15 the public score moved to 28.06 with other authors' v13 circuits (see the [Atlas Toolkit notebook](../qcc-lb-28-07502-wait-daily-reset/)).
 
 ## Every public version
 

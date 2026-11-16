@@ -1,10 +1,14 @@
-# QCC 27.30 | What Works, What Fails and Why
+# QCC 28.06018 | What Works, What Fails and Why
 
-Kaggle: [https://www.kaggle.com/code/asteriospanoras/qcc-27-30-what-works-what-fails-and-why](https://www.kaggle.com/code/asteriospanoras/qcc-27-30-what-works-what-fails-and-why) · medal: **bronze** · votes: 13 (2026-11-15) · versions: 14
+Kaggle: [https://www.kaggle.com/code/asteriospanoras/qcc-28-06018-what-works-what-fails-and-why](https://www.kaggle.com/code/asteriospanoras/qcc-28-06018-what-works-what-fails-and-why) · medal: **bronze** · votes: 14 (2026-11-16) · versions: 14
+
+## Address history
+
+Retitled on 2026-11-15 from "QCC 27.30 | What Works, What Fails and Why" (address `qcc-27-30-what-works-what-fails-and-why`, which redirects to the current address) to "QCC 28.06018 | What Works, What Fails and Why". This notebook has no new version since version 14.
 
 ## Versions 13 and 14 (2026-11-15)
 
-* **Version 13** submitted the same files as the 28.06018 release of the Atlas Toolkit notebook (submission 58398329, 2026-11-15 19:23 UTC): public score 28.06018.
+* **Version 13** submitted the same files as the 28.06018 release of the first notebook (now "QCC | LB:28.07502 wait daily reset :)") (submission 58398329, 2026-11-15 19:23 UTC): public score 28.06018.
 * **Version 14** is a no-file version (no submission).
 * New section **7. This round: what worked, what failed, and why** (the 28.06 portfolio): the work of 15 November measured idea by idea. Three of the ingredients are other people's (Syed Asad Ali's v13 invsqrt and DQI, Lera's loaders with boristown's weights); ours is the exact LP re-solve of the 34 rotation angles (+6e-5 points) and the Atlas refit toolkit run in the notebook; several other ideas (a lower-rank GF(2^24) product for DQI, a second weight refit with an augmented Lagrangian) are recorded as failed with the measured reason.
 * The Kaggle title still reads "27.30"; the score of the notebook's latest submission is 28.06018.

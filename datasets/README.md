@@ -10,7 +10,7 @@ Download counts are the ones Kaggle reported in the evening of 2026-11-15 (`kagg
 
 ## QCC Circuit Atlas, version 3: `best/`
 
-The two files of the 28.06018 release of the [Atlas Toolkit notebook](https://www.kaggle.com/code/asteriospanoras/qcc-atlas-toolkit-in-notebook-chemistry-refit) (both already verified with the unchanged official verifiers and submitted; local GM 28.05956), with the NOTICE and LICENSE files of their authors:
+The two files of the 28.06018 release of the [Atlas Toolkit notebook](https://www.kaggle.com/code/asteriospanoras/qcc-lb-28-07502-wait-daily-reset) (both already verified with the unchanged official verifiers and submitted; local GM 28.05956), with the NOTICE and LICENSE files of their authors:
 
 | File in `best/` | What it is | Origin and credit |
 |---|---|---|

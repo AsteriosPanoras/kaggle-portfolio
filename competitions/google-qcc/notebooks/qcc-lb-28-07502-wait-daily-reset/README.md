@@ -1,16 +1,24 @@
-# QCC | Atlas Toolkit + In-Notebook Chemistry Refit
+# QCC | LB:28.07502 wait daily reset :)
 
-Kaggle: [https://www.kaggle.com/code/asteriospanoras/qcc-atlas-toolkit-in-notebook-chemistry-refit](https://www.kaggle.com/code/asteriospanoras/qcc-atlas-toolkit-in-notebook-chemistry-refit) · medal: **bronze** · votes: 32 (2026-11-15) · versions: 11
+Kaggle: [https://www.kaggle.com/code/asteriospanoras/qcc-lb-28-07502-wait-daily-reset](https://www.kaggle.com/code/asteriospanoras/qcc-lb-28-07502-wait-daily-reset) · medal: **bronze** · votes: 34 (2026-11-16) · versions: 16
 
 ## Address history
 
-This is the notebook that was first published as **LB 25.367 | Verified Portfolio + DQI Readout Fix** (address `lb-25-367-verified-portfolio-dqi-readout-fix`, versions 1-5, 2026-11-11 to 2026-11-12). It was later retitled and moved to the address above; Kaggle redirects the old address to the new one, so links to `https://www.kaggle.com/code/asteriospanoras/lb-25-367-verified-portfolio-dqi-readout-fix` still open it. The evidence tables of other authors' notebooks refer to it under both names.
+This is the notebook that was first published as **LB 25.367 | Verified Portfolio + DQI Readout Fix** (address `lb-25-367-verified-portfolio-dqi-readout-fix`, versions 1-5, 2026-11-11 to 2026-11-12). It has been retitled twice: on 2026-11-15 to **QCC | Atlas Toolkit + In-Notebook Chemistry Refit** (address `qcc-atlas-toolkit-in-notebook-chemistry-refit`) and, by 2026-11-16, to **QCC | LB:28.07502 wait daily reset :)** (address `qcc-lb-28-07502-wait-daily-reset`, the one above). Kaggle's redirects do not chain: on 2026-11-16 the middle address `qcc-atlas-toolkit-in-notebook-chemistry-refit` returned HTTP 404 anonymously, so use the address above. A link to a further intermediate address, `qcc-top-1-public-solution-until-not-lb-28-075`, appears in boristown's notebook and still opens this page. Rows in the evidence tables that quote an older name mean the same notebook; the links in this repository were rewritten to the current address.
+
+## Release of 2026-11-15 evening (versions 13 and 15): 28.07502
+
+* **Public leaderboard score 28.07502** (version 15, submission 58404020, 2026-11-15 22:52 UTC by the Kaggle API; 2026-11-16 in Greek time). Earlier the same evening version 13 scored 28.07495 (submission 58400871, 20:49 UTC).
+* Files of version 15: invsqrt `f67851ac` = jeffemerson's `9339eecc` (Syed Asad Ali's v13 44-qubit circuit plus jeffemerson's AND-merge cut, 1456.25 Toffolis) **with my exact-LP re-solved rotation angles** (modeled cost 75082.14); DQI `4b350932` (890 qubits; Hayato Hikawa's product retention on Syed Asad Ali's decoder); chemistry weights `881d9dae` (a refit on Lera's loaders). Version 13 used jeffemerson's `9339eecc` unchanged, with the same DQI and chemistry weights.
+* What is mine in it: the LP angle re-solve of the invsqrt rotation angles (applied here to jeffemerson's circuit instead of Syed Asad Ali's) and the in-notebook refit toolkit. The circuits, the DQI pass and the AND-merge cut are other people's public work and are credited in the notebook.
+* Other public stacks reach about the same score: [kirderf's reproduction](https://www.kaggle.com/code/kirderf/vqcc-portfolio-28-08-reproduced) prints a geometric mean of 28.07503 (a modeled value from its own log, not a leaderboard score) with the same idea of re-solving the angles on top of jeffemerson's merge cut and ozertuu's chemistry refit; it is equal or very slightly better than version 15 (28.07502), and it credits the LP angle re-solve to me.
+* Versions 12 to 16 are added to the table below. Version 12 switched the circuits to the 9339eecc stack, versions 15 and 16 embed the re-solved invsqrt (`f67851ac`).
 
 ## Release of 2026-11-15 (version 10)
 
 * **Public leaderboard score 28.06018** (submission 58394704, 2026-11-15 17:23 UTC), tied for the best public score on 15 Nov 2026: other public 28.06 stacks report the same value.
 * Files: Syed Asad Ali's v13 44-qubit invsqrt (`47b31838`, packaged by Ertugrul Ozer) with the 34 non-Clifford rotation angles re-solved by an exact phase-margin LP (29 angle literals change, file `09000960`); the DQI `46446af1` (890 qubits, Syed Asad Ali); Lera's chemistry loaders with boristown's refitted weights as the start of an in-notebook refit.
-* Companion submission from the analysis notebook, same files: 28.06018 (submission 58398329, 2026-11-15 19:23 UTC), see [../qcc-27-30-what-works-what-fails-and-why/](../qcc-27-30-what-works-what-fails-and-why/).
+* Companion submission from the analysis notebook, same files: 28.06018 (submission 58398329, 2026-11-15 19:23 UTC), see [../qcc-28-06018-what-works-what-fails-and-why/](../qcc-28-06018-what-works-what-fails-and-why/).
 * Almost all of the circuits are other people's public work and are credited in the notebook; the files themselves are not in this repository.
 
 ### What we contributed in this release
@@ -36,6 +44,11 @@ All versions are public on Kaggle (open the notebook, then "Version history"). T
 | 9 | [v09.ipynb](v09.ipynb) | 11 | 104 | — | same sections, code/text revised | embedded binary data (refitted chemistry weights) removed; the full cell is on Kaggle |
 | 10 | [v10.ipynb](v10.ipynb) | 11 | 114 | 28.06018 | same sections, code/text revised | embedded binary data (refitted chemistry weights) removed; the full cell is on Kaggle |
 | 11 | [v11.ipynb](v11.ipynb) | 11 | 114 | — | same sections, code/text revised | embedded binary data (refitted chemistry weights) removed; the full cell is on Kaggle |
+| 12 | [v12.ipynb](v12.ipynb) | 11 | 110 | — | new circuit set (jeffemerson `9339eecc`, DQI `4b350932`, chemistry `881d9dae`) | embedded binary data removed; the full cell is on Kaggle |
+| 13 | [v13.ipynb](v13.ipynb) | 11 | 110 | 28.07495 | same circuits, submission made | embedded binary data removed; the full cell is on Kaggle |
+| 14 | [v14.ipynb](v14.ipynb) | 11 | 110 | — | same code size, no submission | embedded binary data removed; the full cell is on Kaggle |
+| 15 | [v15.ipynb](v15.ipynb) | 11 | 114 | 28.07502 | invsqrt `f67851ac` (jeffemerson `9339eecc` with our LP-re-solved angles) embedded | embedded binary data removed; the full cell is on Kaggle |
+| 16 | [v16.ipynb](v16.ipynb) | 11 | 114 | — | same files as 15, no submission | embedded binary data removed; the full cell is on Kaggle |
 
 ## Used by others (32 public notebooks)
 
