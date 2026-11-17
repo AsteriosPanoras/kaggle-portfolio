@@ -4,9 +4,10 @@ Competition: [kaggle.com/competitions/playground-series-s6e11](https://www.kaggl
 
 ## Notebook
 
-[S6E11 | How Much of the Public Top Is Real?](https://www.kaggle.com/code/asteriospanoras/s6e11-how-much-of-the-public-top-is-real)
-(source: [`notebooks/s6e11-how-much-of-the-public-top-is-real/`](notebooks/s6e11-how-much-of-the-public-top-is-real/),
-all 10 public versions pulled 2026-11-15, outputs stripped; 18 votes on 2026-11-15).
+[S6E11 | LB 0.95428 | This Score Is Not Real](https://www.kaggle.com/code/asteriospanoras/s6e11-lb-0-95428-this-score-is-not-real)
+(first published as "S6E11 | How Much of the Public Top Is Real?", address `s6e11-how-much-of-the-public-top-is-real`; it was retitled several times and the old addresses redirect to the current one, HTTP 302 checked on 2026-11-17).
+Source: [`notebooks/s6e11-lb-0-95428-this-score-is-not-real/`](notebooks/s6e11-lb-0-95428-this-score-is-not-real/),
+all 16 public versions pulled on 2026-11-17 (versions 1 to 10 on 2026-11-15), outputs stripped. 29 votes on 2026-11-17 (18 on 2026-11-15); bronze medal.
 
 An analysis of the public leaderboard "ladders" (sequences of small blending steps, each kept because it raised the
 public score). Using the public nested out-of-fold predictions of a top-band stack as a stand-in for the hidden test
@@ -18,8 +19,44 @@ labels, it draws many random public/private splits and measures:
 * the winner's curse: choosing the best of many probes by public score guarantees a public gain even when nothing is
   better, and the private part does not repeat it.
 
-Every input is a public file, found by name and checked by SHA-256; the notebook runs on CPU in about ten minutes and
+Every input is a public file, found by name and checked by SHA-256; the notebook runs on CPU in about fifteen minutes and
 trains no large model.
+
+### Public scores of its submissions, and what they mean
+
+Read with `kaggle competitions submissions playground-series-s6e11` on 2026-11-17 (public score, ROC-AUC):
+
+| Version | Public score | What the file is |
+|---:|---:|---|
+| 9, 10 | 0.95417, 0.95419 | credited rebuilds of other authors' public files (SHA-256 checked) |
+| 11 | 0.95422 | a board-steered file: chosen with a model of the public board and my own earlier probes |
+| 14 | 0.95424 | board-steered (Areeb Ali's *Steer, Then Mix* and goodpjw2008's 0.95421 file, credited in the notebook) |
+| 15 | 0.95428 | board-steered, one step on top of an average of two 0.95427 files |
+
+**These public scores are not evidence of a better model.** The notebook's own text (version 16) says so: it states that the file was built by steering on a model of the public board and that most of that score will likely not survive the private leaderboard (the private part is 80% of the test rows); it also writes a cross-validation-backed alternative file. The title ("This Score Is Not Real") is that point.
+
+## Used by others
+
+Public notebooks of other authors that credit or use this notebook or my dataset
+[S6E11 Public Board Files (pinned copies)](https://www.kaggle.com/datasets/asteriospanoras/s6e11-public-board-files) (48 downloads on 2026-11-17).
+Found on 2026-11-17 by reading the latest source (and Kaggle metadata) of 389 public S6E11 notebooks (the 300 most recently run, the 300 hottest and the 300 most voted, deduplicated; sources with `kaggle kernels pull`, found by my name, my account name, the slugs and titles of my notebook and dataset). Outputs were not downloaded. **12 notebooks by 11 other authors** (3 of them use a file of mine, 9 credit me by name); only what is visible in the source text or in the metadata is listed:
+
+| Notebook | Author | Votes | How it uses or credits it (quote from the source) |
+|---|---|---:|---|
+| [S6E11 Split Then Push LB 0.95431](https://www.kaggle.com/code/areebbb/s6e11-split-then-push-lb-0-95431) | areebbb | 63 | **uses a file**: its input list names my notebook, and the source says "`A` ... is the `submission.csv` of asteriospanoras's S6E11 \| LB 0.95428 \| This Score Is Not Real" |
+| [EDA Blend LB 0.95239 Credit Card Fraud](https://www.kaggle.com/code/saamhm/eda-blend-lb-0-95239-credit-card-fraud) | saamhm | 62 | **uses a file**: my notebook is a notebook input and the code reads `.../asteriospanoras/s6e11-how-much-of-the-public-top-is-real/submission.csv`; its credits list me |
+| [S6E11 LM Ladder: Ladder Meets Stack LB 0.95432](https://www.kaggle.com/code/goodpjw2008/s6e11-lm-ladder-ladder-meets-stack-lb-0-95432) | goodpjw2008 | 56 | **uses my dataset**: `asteriospanoras/s6e11-public-board-files` is a dataset input; its credits name "the pinned copies in s6e11-public-board-files that make this version exact", my 0.95422 file and the 0.95424 file |
+| [Credit Card Fraud LB 0.9542 Shallow Tree Stack](https://www.kaggle.com/code/alexchilton/credit-card-fraud-lb-0-9542-shallow-tree-stack) | alexchilton | 66 | credits me by name and link: "the noise of a public gap on out-of-fold rows" |
+| [Fraud Signal Lab: GPT-2 and GLM Fusion](https://www.kaggle.com/code/malyshevdanil/fraud-signal-lab-gpt-2-and-glm-fusion) | malyshevdanil | 38 | lists me among its upstream credits |
+| [S6E11 Fable and Two Families Forecast LB 0.95426](https://www.kaggle.com/code/bhuvannr2006/s6e11-fable-two-families-forecast-lb-0-95426) | bhuvannr2006 | 10 | credits "the noise analysis of the public board and the nested 4-of-5-folds gate used in section 6" |
+| [S6E11 LM Ladder: Forecast the Board LB 0.95417](https://www.kaggle.com/code/bhuvannr2006/s6e11-lm-ladder-forecast-the-board-lb-0-95417) | bhuvannr2006 | 7 | credits "Asterios Panoras (the noise analysis of the public board)" |
+| [S6E11 Fraud: What Worked, What Didn't](https://www.kaggle.com/code/mathsonchain/s6e11-fraud-what-worked-what-didn-t) | mathsonchain | 5 | cites my notebook and its result that the replayed ladder rungs gave +12 points on the public board and -8.2 in nested CV |
+| [S6E11 Final-Pick Check: CV vs the Public Top](https://www.kaggle.com/code/kagankoral/s6e11-final-pick-check-cv-vs-the-public-top) | kagankoral | 5 | credits "Asterios Panoras: measuring the noise of a public gap on OOF rows" |
+| [S6E11 Top-20 CPU Blend EDA LB 0.95440](https://www.kaggle.com/code/sriram00777/s6e11-top-20-cpu-blend-eda-lb-0-95440) | sriram00777 | 3 | credits me for "alternative references compared in this round" |
+| [How GPT-2 Tokenizes Numbers](https://www.kaggle.com/code/azizdzhon/how-great-tokenizes-numbers-bpe-token-target) | azizdzhon | 0 | lists my notebook as a reference: "Reading the public leaderboard as noise and blending in logit-rank space" |
+| [S6E11 Fraud Post-Mortem: 12 Days, 5 Machines](https://www.kaggle.com/code/markbarney/s6e11-fraud-post-mortem-12-days-5-machines) | markbarney | 0 | credits me and summarises my notebook: "explains why the top of this board is mostly luck" |
+
+(`kaggle kernels list --dataset asteriospanoras/s6e11-public-board-files` lists exactly one notebook of another author, goodpjw2008's above. Public forks of my notebook: none visible.) Not counted: one notebook (mobeenfatimah's "getting high score on LB") shows the headline "How much of the public top is real?" in its header but names no source, so I make no claim about it. Quotes are at most about twelve words. Only authors' public pages are linked.
 
 ## Credits
 

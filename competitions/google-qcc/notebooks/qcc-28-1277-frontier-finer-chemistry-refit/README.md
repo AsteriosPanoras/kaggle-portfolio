@@ -1,8 +1,15 @@
 # QCC 28.1277 | Frontier + Finer Chemistry Refit
 
-Kaggle: [https://www.kaggle.com/code/asteriospanoras/qcc-28-1277-frontier-finer-chemistry-refit](https://www.kaggle.com/code/asteriospanoras/qcc-28-1277-frontier-finer-chemistry-refit) · medal: bronze (earlier state; not re-checked) · votes: 21 (2026-11-16 evening) · versions: 9
+Kaggle: [https://www.kaggle.com/code/asteriospanoras/qcc-28-1277-frontier-finer-chemistry-refit](https://www.kaggle.com/code/asteriospanoras/qcc-28-1277-frontier-finer-chemistry-refit) · medal: bronze (earlier state; not re-checked) · votes: 37 (2026-11-17 midday) · versions: 15
 
 Former titles and addresses: first **QCC 27.307 | Frontier + Finer Chemistry Refit** (`qcc-27-307-frontier-finer-chemistry-refit`), then **QCC 27.3122 | Frontier + Finer Chemistry Refit** (`qcc-27-3122-frontier-finer-chemistry-refit`); on 2026-11-16 the old address answered with a redirect to the current one. The new title is the owner's choice.
+
+## Status on 2026-11-17 (versions 10 to 15)
+
+* **Version 13** (submission 58452966, 2026-11-17 02:35 UTC) scored **28.14703** on the public leaderboard (read with `kaggle competitions submissions`). It ships Grant Prater's DQI `61c8348d` (his merge of boristown's patches into Balram Srinivasan's `66b4f18b`), with maoxin123's invsqrt `0af21cb8` and Atakan Aldemir's chemistry weights `703843d3` on Lera's loaders. **These are other authors' public files, re-verified in the notebook with the unchanged official verifiers; none of them is mine.**
+* Version 10 tried boristown's DQI `f425ea20` instead (submission 58447146, 28.08843): the DQI is sampled and that file drew one failed shot on the board. Version 12 went back to `66b4f18b` with a short note on this.
+* **Version 15** takes the 4,022-Toffoli chemistry loaders of maoxin123 with Atakan Aldemir's weights and Grant Prater's DQI `575b043f`, the combination that newer public notebooks (Atakan Aldemir's, maoxin123's, Grant Prater's) report at about 28.151 locally. That work is theirs. I submitted it through the notebook (submission 58466298, 2026-11-17 10:59 UTC); it was still pending when this folder was updated, so I list no score for it.
+* The title on Kaggle still says 28.1277; I will rename it myself in the Kaggle interface.
 
 ## Status on 2026-11-16 (versions 7 to 9)
 
@@ -26,13 +33,19 @@ All versions are public on Kaggle (open the notebook, then "Version history"). T
 | 7 | [v07.ipynb](v07.ipynb) | 11 | 110 | — | files of maoxin123 / Balram Srinivasan / Atakan Aldemir (`0af21cb8`, `66b4f18b`, `703843d3`) | |
 | 8 | [v08.ipynb](v08.ipynb) | 11 | 110 | 28.12769 | same files, submitted | |
 | 9 | [v09.ipynb](v09.ipynb) | 11 | 110 | — | same files; submission-file writing switched off | |
+| 10 | [v10.ipynb](v10.ipynb) | 11 | 110 | 28.08843 (submission 58447146) | DQI `f425ea20` (boristown) instead of `66b4f18b`; submission-file writing on | board draw of the DQI had one failed shot |
+| 11 | [v11.ipynb](v11.ipynb) | 11 | 110 | — | same files; submission-file writing off |  |
+| 12 | [v12.ipynb](v12.ipynb) | 11 | 110 | — | back to the DQI `66b4f18b`; a note on the DQI draw |  |
+| 13 | [v13.ipynb](v13.ipynb) | 11 | 114 | **28.14703** (submission 58452966) | DQI `61c8348d` (Grant Prater); submitted |  |
+| 14 | [v14.ipynb](v14.ipynb) | 11 | 114 | — | same files as v13; submission-file writing off |  |
+| 15 | [v15.ipynb](v15.ipynb) | 11 | 95 | — | invsqrt `0af21cb8`, DQI `575b043f` (Grant Prater), 4,022-Toffoli loaders (maoxin123) with Atakan Aldemir's weights; title text "28.151"; submitted via the notebook (submission 58466298, 10:59 UTC) | score still pending when this folder was updated |
 
 ## Used by others (8 public notebooks)
 
 | # | Notebook (link) | Author | Votes | Date | Versions | What of mine it uses / how it credits me |
 |---:|---|---|---:|---|---|---|
-| 1 | [the-real-150k-was-the-friends-we-made](https://www.kaggle.com/code/manwithacat/the-real-150k-was-the-friends-we-made) | manwithacat | 99 | 2026-11-12 | 130-139 | file reuse; builds on; hash cited: invsqrt 9c708f7b (splice at clean cuts); chemistry npz 54bc3e71 (W/H2_I refit, v4); invsqrt 1ba197b0 (manwithacat): our q21 measure-first edit (e46d90c3) plus a second edit; his notes credit the identity to K. Tymchishin |
-| 2 | [vqcc-hedge-wizardry-notebook](https://www.kaggle.com/code/manwithacat/vqcc-hedge-wizardry-notebook) | manwithacat | 64 | 2026-11-14 | 28-29 | file reuse; builds on; text credit; hash cited: chemistry npz 54bc3e71 (W/H2_I refit, v4); invsqrt 1ba197b0 (manwithacat): our q21 measure-first edit (e46d90c3) plus a second edit; his notes credit the identity to K. Tymchishin / M. H. Hosen and say we found the q21 e |
+| 1 | [the-real-150k-was-the-friends-we-made](https://www.kaggle.com/code/manwithacat/the-real-150k-was-the-friends-we-made) | manwithacat | 100 | 2026-11-12 | 130-139 | file reuse; builds on; hash cited: invsqrt 9c708f7b (splice at clean cuts); chemistry npz 54bc3e71 (W/H2_I refit, v4); invsqrt 1ba197b0 (manwithacat): our q21 measure-first edit (e46d90c3) plus a second edit; his notes credit the identity to K. Tymchishin |
+| 2 | [vqcc-hedge-wizardry-notebook](https://www.kaggle.com/code/manwithacat/vqcc-hedge-wizardry-notebook) | manwithacat | 71 | 2026-11-14 | 28-29 | file reuse; builds on; text credit; hash cited: chemistry npz 54bc3e71 (W/H2_I refit, v4); invsqrt 1ba197b0 (manwithacat): our q21 measure-first edit (e46d90c3) plus a second edit; his notes credit the identity to K. Tymchishin / M. H. Hosen and say we found the q21 e |
 | 3 | [qai-fewer-toffolis-same-qubits-lb-28-06015](https://www.kaggle.com/code/areebbb/qai-fewer-toffolis-same-qubits-lb-28-06015) | areebbb | 54 | 2026-11-12 | 1-23 | file reuse; builds on; text credit; hash cited; kernel input: invsqrt 9c708f7b (splice at clean cuts); invsqrt e46d90c3 (dead-write fix); chemistry npz 54bc3e71 (W/H2_I refit, v4); invsqrt 1ba197b0 (manwithacat): our q21 measure-first edit (e46d90c3) plus a second edit; his notes c |
 | 4 | [qcc-reproducible-circuit-portfolio](https://www.kaggle.com/code/ahoirg/qcc-reproducible-circuit-portfolio) | ahoirg | 28 | 2026-11-14 | 5-8 | text credit; hash cited: cites our file(s): chemistry npz 54bc3e71 (W/H2_I refit, v4); invsqrt 1ba197b0 (manwithacat): our q21 measure-first edit (e46d90c3) plus a second edit; his notes credit the identity to K. Tymchishin / M. H. Hosen and say |
 | 5 | [28-09-lb-which-circuits-survive-private-salt](https://www.kaggle.com/code/alexchilton/28-09-lb-which-circuits-survive-private-salt) | alexchilton | 18 | 2026-11-15 | 1-7 | text credit: cites our file(s): DQI 245527f6 (readout-window transplant); DQI 5778cdd5 (two retained products); chemistry npz 54bc3e71 (W/H2_I refit, v4); invsqrt 1ba197b0 (manwithacat): our q21 measure-first edit (e46d90c3) plus a s |
