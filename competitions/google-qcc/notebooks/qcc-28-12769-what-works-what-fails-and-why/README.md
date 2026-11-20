@@ -19,7 +19,7 @@ First titled "QCC 27.30 | What Works, What Fails and Why" (`qcc-27-30-what-works
 * **Version 32** (19 Nov): the full analysis of the 28.23837 set; the run was cancelled by me, so it has no score (the source is public).
 * **Version 33** (19 Nov): the full analysis of the 28.23498 set. Its section 8 scans were run on the older files and the notebook says the newer file sets are not analysed yet.
 * **Version 34** (20 Nov, fast): the 28.24094 set: manwithacat's DQI `f6b555a6` (his HW-31 clean inverses), ozertuu's invsqrt `acc7b9c8` and Manvender Singh's chemistry `6ef06081`; submission 58581362 scored **28.24094**, a tie with the public notebooks of ozertuu and manwithacat.
-* **Version 35** (20 Nov, fast): Ghazaros Barseghyan's 28.24398 set from his notebook *vqcc-28-24398-leaf-port*: invsqrt `d0a9a694`, goodpjw2008's DQI `db0a845f` and chemistry `6ef06081`; submission 58608424 was made, its score was still pending when I wrote this, so I list none (not re-checked on 2026-11-20 after that).
+* **Version 35** (20 Nov, fast): Ghazaros Barseghyan's 28.24398 set from his notebook *vqcc-28-24398-leaf-port*: invsqrt `d0a9a694`, goodpjw2008's DQI `db0a845f` and chemistry `6ef06081`; submission 58608424 scored **28.24396** (2026-11-20, read with `kaggle competitions submissions`), a tie with the public notebooks of the same files, not a gain of mine.
 * Versions 28, 31, 34 and 35 are tiny (about 2.4 KB each): they only copy a public file set and write `submission.zip`, so a score of one of them says nothing about analysis. Versions 27 to 33 embed the `qccscope` code zip as before; the 35 KB invsqrt string is removed in the sources here.
 * The QCC Circuit Atlas dataset (version 6, 2026-11-19) holds a `frontier/` folder with the 28.23498 and 28.23837 file sets (as folders of the 18 files each), a `receipt.json` with SHA-256 values and the licence and credit notices of the authors; see [datasets/README.md](../../../../datasets/README.md). The files are their authors' work.
 
@@ -83,7 +83,7 @@ All versions are public on Kaggle (open the notebook, then "Version history"). T
 | 32 | [v32.ipynb](v32.ipynb) | 80 | 1267 | — (cancelled) | full analysis around the 28.23837 set | cancelled by me |
 | 33 | [v33.ipynb](v33.ipynb) | 80 | 1266 | — | full analysis of the 28.23498 set | newer file sets not analysed yet |
 | 34 | [v34.ipynb](v34.ipynb) | 2 | 18 | 28.24094 (submission 58581362) | fast version: the 28.24094 set (manwithacat DQI `f6b555a6`, ozertuu invsqrt `acc7b9c8`, chemistry `6ef06081`) | other authors' files; a tie with the public notebooks of ozertuu and manwithacat |
-| 35 | [v35.ipynb](v35.ipynb) | 2 | 14 | pending when written; none listed | fast version: Ghazaros Barseghyan's 28.24398 set (invsqrt `d0a9a694`, DQI `db0a845f`, chemistry `6ef06081`); submission 58608424 | other authors' files |
+| 35 | [v35.ipynb](v35.ipynb) | 2 | 14 | 28.24396 (tie, other authors' files) | fast version: Ghazaros Barseghyan's 28.24398 set (invsqrt `d0a9a694`, DQI `db0a845f`, chemistry `6ef06081`); submission 58608424 | other authors' files |
 
 ## Used by others (0 public notebooks)
 
