@@ -12,6 +12,16 @@ shipping files I published first, byte for byte, or naming them in their receipt
 Playground S6E11), which made me a Kaggle Notebooks Expert. Since then I have also published a guide notebook and dataset for Santa 2026 (the Elf Calculator) and an error analysis for Name That LLM; their programs and pipelines are other authors' public work, credited in the notebooks. Every claim below links to a Kaggle page
 you can open without an account.
 
+## Ownership at a glance (read this first)
+
+| | What | Where the detail is |
+|---|---|---|
+| **Mine** | the exact LP re-solve of the invsqrt rotation angles (15 Nov); the dead-write / measured-CZ fix (14 Nov, found independently); the DQI readout-window rewrite (-48 Toffolis, 11 Nov) and the invsqrt splice at clean cuts; the chemistry refit toolkit and the **QCC Circuit Atlas** dataset; the analysis notebooks and their negative results; the experiments of 19-20 Nov 2026 (the 110th inverse site, the dead-tail DQI candidates, the invsqrt and loader exact checks), run by me with AI agents and reported with their failures | [CONTRIBUTIONS.md](competitions/google-qcc/CONTRIBUTIONS.md), [What we tried, what failed and why](https://www.kaggle.com/code/asteriospanoras/qcc-31-68-what-we-tried-what-failed-and-why) |
+| **Not mine** | every circuit and weight file behind every score above 27.31, including the 28.23-28.24 sets (Koushik Rudra, ozertuu, manwithacat, goodpjw2008, Ghazaros Barseghyan, Leo Tang, maoxin123, Syed Asad Ali, Manvender Singh ...) and the **31.68-31.69 sets: team ThemBones (Danish Ali) and almondlabs**, with prvsiyan's chemistry solver. When my notebooks scored these levels they re-packaged public files, checked their hashes and credited the authors; the score is a tie with the public notebook of the same files, **not a gain of mine** | each notebook README; [USES.md](competitions/google-qcc/evidence/USES.md) |
+| **Credits by others that are wrong or overstated** | prvsiyan's notebook *Verifier-Guided Quantum Circuit Optimization* (read 2026-11-20) credits "Asterios Panoras (V36 of his notebook)" with re-encoding 56 angle-word rows of the ThemBones table so that loaders k5, k6, k7 need one Toffoli fewer. **That work is almondlabs'**: my version 36 only re-packaged almondlabs' public file set (its log names the source notebook). Other overstated credits are listed in section 5 of CONTRIBUTIONS.md | [CONTRIBUTIONS.md, section 5](competitions/google-qcc/CONTRIBUTIONS.md) |
+
+Credits that name my LP angle re-solve (for example in the ThemBones and almondlabs notebooks) are credits for an **idea** that they list as prior art; none of their circuits is made from my files.
+
 ## Highlights
 
 | Item | Competition | What it is | Score / rank | Votes | Link |

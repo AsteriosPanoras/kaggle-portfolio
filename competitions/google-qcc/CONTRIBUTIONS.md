@@ -138,6 +138,7 @@ than in the way the search runs:
 * ozertuu credits me for "the GRG2 ... chemistry weight optimization toolkit": the method is prvsiyan's
   `refit_grg.py`; mine is the numpy port and packaging.
 * "measured-CZ / dead-write ideas": the identity is not mine; the edit at this site is mine, found independently.
+* prvsiyan (read 2026-11-20) credits "Asterios Panoras (V36 of his notebook)" with re-encoding 56 angle-word rows of the ThemBones table so that loaders k5, k6, k7 need one Toffoli fewer per pass, and takes "his" loaders and words. **Wrong attribution (VERIFIED from the logs):** version 36 of my notebook re-packaged the public file set of almondlabs' notebook *VQCC 31.68159 Improved Chemistry Gauge and Loader* (its `submission.zip`, member for member, sha256 of the zip `a45c95bf`), which already contained that loader recompilation. The work is almondlabs'; mine was the packaging.
 
 ## 6. Superseded
 
@@ -170,5 +171,5 @@ Aldemir** (DQI readout windows, `dcde7078`, `703843d3` weights), **Ertuğrul Öz
 angle refits, DQI extractor cutoff, the fast runner), **leotang09** (`4d63be3d` weights), **manwithacat (James Barlow)**
 (measure-out edits, retention, tools), **vumaniacom** (retention), **junmiaotiao** (frontier datasets), **Ali Haydar Özdağ**
 (64-row table, `4560ac0c`), **WCao24** and **Thomas Gamet** (the circuits my splice joined), **prvsiyan** (refit method),
-**Areeb Ali** (product retention), and the authors they credit. Where I rebuilt or re-verified their files, that is all
+**Areeb Ali** (product retention), **team ThemBones (Danish Ali)** (the 31.68 circuits: 39-qubit invsqrt, 901-qubit DQI, 405-qubit chemistry), **almondlabs** (chemistry gauge and loader recompilation, the 31.69054 set), and the authors they credit. Where I rebuilt or re-verified their files, that is all
 I did.
