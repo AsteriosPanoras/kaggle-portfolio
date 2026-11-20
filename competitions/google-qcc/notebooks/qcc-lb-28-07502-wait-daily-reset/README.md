@@ -1,6 +1,6 @@
-# QCC | LB:28.07502 wait daily reset :)
+# QCC | LB:28.09535 (formerly "QCC | LB:28.07502 wait daily reset :)"; the folder keeps that address)
 
-Kaggle: [https://www.kaggle.com/code/asteriospanoras/qcc-lb-28-07502-wait-daily-reset](https://www.kaggle.com/code/asteriospanoras/qcc-lb-28-07502-wait-daily-reset) · medal: silver (as shown on the owner's Kaggle profile, 2026-11-16; not checked anonymously) · votes: 44 (2026-11-17 midday) · versions: 19
+Kaggle: [https://www.kaggle.com/code/asteriospanoras/qcc-lb-28-09535](https://www.kaggle.com/code/asteriospanoras/qcc-lb-28-09535) (renamed since 2026-11-18; the old address `qcc-lb-28-07502-wait-daily-reset` redirects to it, HTTP 200 after redirect on 2026-11-20) · medal: silver (as shown on the owner's Kaggle profile, 2026-11-16; not checked anonymously) · votes: 44 (2026-11-20) · versions: 19 (no newer version found on 2026-11-20)
 
 ## Address history
 
@@ -25,7 +25,7 @@ This is the notebook that was first published as **LB 25.367 | Verified Portfoli
 
 * **Public leaderboard score 28.06018** (submission 58394704, 2026-11-15 17:23 UTC), tied for the best public score on 15 Nov 2026: other public 28.06 stacks report the same value.
 * Files: Syed Asad Ali's v13 44-qubit invsqrt (`47b31838`, packaged by Ertugrul Ozer) with the 34 non-Clifford rotation angles re-solved by an exact phase-margin LP (29 angle literals change, file `09000960`); the DQI `46446af1` (890 qubits, Syed Asad Ali); Lera's chemistry loaders with boristown's refitted weights as the start of an in-notebook refit.
-* Companion submission from the analysis notebook, same files: 28.06018 (submission 58398329, 2026-11-15 19:23 UTC), see [../qcc-28-06018-what-works-what-fails-and-why/](../qcc-28-06018-what-works-what-fails-and-why/).
+* Companion submission from the analysis notebook, same files: 28.06018 (submission 58398329, 2026-11-15 19:23 UTC), see [../qcc-28-12769-what-works-what-fails-and-why/](../qcc-28-06018-what-works-what-fails-and-why/).
 * Almost all of the circuits are other people's public work and are credited in the notebook; the files themselves are not in this repository.
 
 ### What we contributed in this release

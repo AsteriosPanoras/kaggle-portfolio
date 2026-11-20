@@ -4,10 +4,12 @@ Competition: [kaggle.com/competitions/playground-series-s6e11](https://www.kaggl
 
 ## Notebook
 
-[S6E11 | LB 0.95428 | This Score Is Not Real](https://www.kaggle.com/code/asteriospanoras/s6e11-lb-0-95428-this-score-is-not-real)
-(first published as "S6E11 | How Much of the Public Top Is Real?", address `s6e11-how-much-of-the-public-top-is-real`; it was retitled several times and the old addresses redirect to the current one, HTTP 302 checked on 2026-11-17).
-Source: [`notebooks/s6e11-lb-0-95428-this-score-is-not-real/`](notebooks/s6e11-lb-0-95428-this-score-is-not-real/),
-all 16 public versions pulled on 2026-11-17 (versions 1 to 10 on 2026-11-15), outputs stripped. 29 votes on 2026-11-17 (18 on 2026-11-15); bronze medal.
+[S6E11 | Best LB 0.95528 | Step L × 1.5](https://www.kaggle.com/code/asteriospanoras/s6e11-best-lb-0-95528-step-l-1-5)
+(first published as "S6E11 | How Much of the Public Top Is Real?", address `s6e11-how-much-of-the-public-top-is-real`; it was retitled several times, among them "S6E11 | LB 0.95428 | This Score Is Not Real" and, for versions 37 to 39, "S6E11 | LB 0.95504 | Will the Top Survive Private?" (`s6e11-lb-0-95504-will-the-top-survive-private`). **That is the same notebook, not a second one**; all old addresses redirect to the current one, checked on 2026-11-20).
+Source: [`notebooks/s6e11-best-lb-0-95528-step-l-1-5/`](notebooks/s6e11-best-lb-0-95528-step-l-1-5/),
+all 41 public versions (versions 1 to 16 pulled on 2026-11-17, 17 to 41 on 2026-11-20), outputs stripped. 47 votes on 2026-11-20 (29 on 2026-11-17, 18 on 2026-11-15); bronze medal (as stated before, not re-checked on 2026-11-20).
+
+**What it is today.** Versions 1 to 39 are the analysis described below (public-board noise, the winner's curse, a nested-CV replay of ladder steps), extended on 2026-11-17 to 2026-11-19 with more board-steered files; versions 37 to 39 apply the method to the whole 0.95442 to 0.95504 race and conclude that the very top will probably not survive the private part. Versions 40 and 41 are a short notebook that rebuilds one public file, goodpjw2008's step L taken 1.5 times, with every input checked by SHA-256: public score **0.95528** (submission 58608567, 2026-11-20). That file is made of other authors' public steps; it is a public-board result, not a model of mine.
 
 An analysis of the public leaderboard "ladders" (sequences of small blending steps, each kept because it raised the
 public score). Using the public nested out-of-fold predictions of a top-band stack as a stand-in for the hidden test
@@ -24,7 +26,7 @@ trains no large model.
 
 ### Public scores of its submissions, and what they mean
 
-Read with `kaggle competitions submissions playground-series-s6e11` on 2026-11-17 (public score, ROC-AUC):
+Read with `kaggle competitions submissions playground-series-s6e11` on 2026-11-17 and, for the rows below the line, on 2026-11-20 (public score, ROC-AUC):
 
 | Version | Public score | What the file is |
 |---:|---:|---|
@@ -32,13 +34,20 @@ Read with `kaggle competitions submissions playground-series-s6e11` on 2026-11-1
 | 11 | 0.95422 | a board-steered file: chosen with a model of the public board and my own earlier probes |
 | 14 | 0.95424 | board-steered (Areeb Ali's *Steer, Then Mix* and goodpjw2008's 0.95421 file, credited in the notebook) |
 | 15 | 0.95428 | board-steered, one step on top of an average of two 0.95427 files |
+| 16 | 0.95442 | board-steered: goodpjw2008's 0.95432 and BhuvanNR's step B, each plus a 0.4 RealMLP update |
+| 19, 23 | 0.95447, 0.95452 | the previous file plus 1.5 x goodpjw2008's steps B and C |
+| 25, 27 | 0.95479, 0.95484 | with a TabM step (busyaprime) and goodpjw2008's step D |
+| 29, 31, 35 | 0.95487, 0.95496, 0.95504 | goodpjw2008's step E as it is, six steps along his step F, his step H as it is |
+| 40 | **0.95528** | goodpjw2008's step L taken 1.5 times (the lean notebook) |
 
-**These public scores are not evidence of a better model.** The notebook's own text (version 16) says so: it states that the file was built by steering on a model of the public board and that most of that score will likely not survive the private leaderboard (the private part is 80% of the test rows); it also writes a cross-validation-backed alternative file. The title ("This Score Is Not Real") is that point.
+**These public scores are not evidence of a better model.** The notebook's own text (version 16, and the analysis of versions 37 to 39 for the 0.95504 file) says so: it states that the file was built by steering on a model of the public board and that most of that score will likely not survive the private leaderboard (the private part is 80% of the test rows); it also writes a cross-validation-backed alternative file. The title ("This Score Is Not Real") is that point.
 
 ## Used by others
 
+(The scan below is the one of 2026-11-17 and was not repeated on 2026-11-20; it refers to the notebook under its titles of that day.)
+
 Public notebooks of other authors that credit or use this notebook or my dataset
-[S6E11 Public Board Files (pinned copies)](https://www.kaggle.com/datasets/asteriospanoras/s6e11-public-board-files) (48 downloads on 2026-11-17).
+[S6E11 Public Board Files (pinned copies)](https://www.kaggle.com/datasets/asteriospanoras/s6e11-public-board-files) (250 downloads on 2026-11-20; 48 on 2026-11-17).
 Found on 2026-11-17 by reading the latest source (and Kaggle metadata) of 389 public S6E11 notebooks (the 300 most recently run, the 300 hottest and the 300 most voted, deduplicated; sources with `kaggle kernels pull`, found by my name, my account name, the slugs and titles of my notebook and dataset). Outputs were not downloaded. **12 notebooks by 11 other authors** (3 of them use a file of mine, 9 credit me by name); only what is visible in the source text or in the metadata is listed:
 
 | Notebook | Author | Votes | How it uses or credits it (quote from the source) |

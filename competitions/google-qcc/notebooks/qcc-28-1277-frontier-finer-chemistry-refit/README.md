@@ -1,15 +1,22 @@
-# QCC 28.1277 | Frontier + Finer Chemistry Refit
+# QCC 28.18084? | Could Be Top 1 public | Try It (originally "QCC 28.1277 | Frontier + Finer Chemistry Refit"; folder name keeps the old slug)
 
-Kaggle: [https://www.kaggle.com/code/asteriospanoras/qcc-28-1277-frontier-finer-chemistry-refit](https://www.kaggle.com/code/asteriospanoras/qcc-28-1277-frontier-finer-chemistry-refit) · medal: bronze (earlier state; not re-checked) · votes: 37 (2026-11-17 midday) · versions: 15
+Kaggle: [https://www.kaggle.com/code/asteriospanoras/qcc-28-18084-could-be-top-1-public-try-it](https://www.kaggle.com/code/asteriospanoras/qcc-28-18084-could-be-top-1-public-try-it) · medal: silver (as shown on the notebook, 2026-11-18) · votes: 52 (2026-11-18 evening and 2026-11-20) · versions: 18 (no newer version found on 2026-11-20: version 19 does not exist)
 
-Former titles and addresses: first **QCC 27.307 | Frontier + Finer Chemistry Refit** (`qcc-27-307-frontier-finer-chemistry-refit`), then **QCC 27.3122 | Frontier + Finer Chemistry Refit** (`qcc-27-3122-frontier-finer-chemistry-refit`); on 2026-11-16 the old address answered with a redirect to the current one. The new title is the owner's choice.
+Current title and address (read with `kaggle kernels list --mine` on 2026-11-18): "QCC 28.18084? | Could Be Top 1 public | Try It", `qcc-28-18084-could-be-top-1-public-try-it`. Former titles and addresses: first **QCC 27.307 | Frontier + Finer Chemistry Refit** (`qcc-27-307-frontier-finer-chemistry-refit`), then **QCC 27.3122 | Frontier + Finer Chemistry Refit** (`qcc-27-3122-frontier-finer-chemistry-refit`); on 2026-11-16 the old address answered with a redirect to the current one. The new title is the owner's choice.
+
+## Status on 2026-11-17 to 2026-11-18 (versions 16 to 18)
+
+* **Version 18** (submission 58485562, 2026-11-18 00:00 UTC) scored **28.18084** on the public leaderboard (read with `kaggle competitions submissions`). It ships boristown's DQI `5f901c55` (his six-product patch on Grant Prater's `575b043f`, which I reproduced from his patch script as a 75-operation byte patch, checked byte for byte against his file, and entered), with maoxin123's invsqrt `563d0583` (embedded in the notebook) and Atakan Aldemir's weights `703843d3` on the 4,022-Toffoli loaders. **This is a tie with boristown's public score, not a gain of mine; every file is another author's public work.**
+* Version 16 embeds the invsqrt `563d0583`; version 17 tried a DQI `327b0751` with three more retained products from my own scan (-3 Toffolis); version 18 replaced it with boristown's six-product `5f901c55`. I list no board score for versions 16 and 17.
+* The embedded invsqrt string and the byte patch are replaced here by `REMOVED_EMBEDDED_BINARY`; the full cells are on Kaggle.
+* The notebook shows a silver medal and 52 votes on 2026-11-18 evening (the medal as I read it, not re-derived).
 
 ## Status on 2026-11-17 (versions 10 to 15)
 
 * **Version 13** (submission 58452966, 2026-11-17 02:35 UTC) scored **28.14703** on the public leaderboard (read with `kaggle competitions submissions`). It ships Grant Prater's DQI `61c8348d` (his merge of boristown's patches into Balram Srinivasan's `66b4f18b`), with maoxin123's invsqrt `0af21cb8` and Atakan Aldemir's chemistry weights `703843d3` on Lera's loaders. **These are other authors' public files, re-verified in the notebook with the unchanged official verifiers; none of them is mine.**
 * Version 10 tried boristown's DQI `f425ea20` instead (submission 58447146, 28.08843): the DQI is sampled and that file drew one failed shot on the board. Version 12 went back to `66b4f18b` with a short note on this.
-* **Version 15** takes the 4,022-Toffoli chemistry loaders of maoxin123 with Atakan Aldemir's weights and Grant Prater's DQI `575b043f`, the combination that newer public notebooks (Atakan Aldemir's, maoxin123's, Grant Prater's) report at about 28.151 locally. That work is theirs. I submitted it through the notebook (submission 58466298, 2026-11-17 10:59 UTC); it was still pending when this folder was updated, so I list no score for it.
-* The title on Kaggle still says 28.1277; I will rename it myself in the Kaggle interface.
+* **Version 15** takes the 4,022-Toffoli chemistry loaders of maoxin123 with Atakan Aldemir's weights and Grant Prater's DQI `575b043f`, the combination that newer public notebooks (Atakan Aldemir's, maoxin123's, Grant Prater's) report at about 28.151 locally. That work is theirs. I submitted it through the notebook (submission 58466298, 2026-11-17 10:59 UTC); its board score was 28.15096 (read on 2026-11-18).
+* The title was renamed afterwards (see the top of this page).
 
 ## Status on 2026-11-16 (versions 7 to 9)
 
@@ -38,7 +45,10 @@ All versions are public on Kaggle (open the notebook, then "Version history"). T
 | 12 | [v12.ipynb](v12.ipynb) | 11 | 110 | — | back to the DQI `66b4f18b`; a note on the DQI draw |  |
 | 13 | [v13.ipynb](v13.ipynb) | 11 | 114 | **28.14703** (submission 58452966) | DQI `61c8348d` (Grant Prater); submitted |  |
 | 14 | [v14.ipynb](v14.ipynb) | 11 | 114 | — | same files as v13; submission-file writing off |  |
-| 15 | [v15.ipynb](v15.ipynb) | 11 | 95 | — | invsqrt `0af21cb8`, DQI `575b043f` (Grant Prater), 4,022-Toffoli loaders (maoxin123) with Atakan Aldemir's weights; title text "28.151"; submitted via the notebook (submission 58466298, 10:59 UTC) | score still pending when this folder was updated |
+| 15 | [v15.ipynb](v15.ipynb) | 11 | 95 | — | invsqrt `0af21cb8`, DQI `575b043f` (Grant Prater), 4,022-Toffoli loaders (maoxin123) with Atakan Aldemir's weights; title text "28.151"; submitted via the notebook (submission 58466298, 10:59 UTC) | board score 28.15096 (read on 2026-11-18) |
+| 16 | [v16.ipynb](v16.ipynb) | 11 | 97 | — | invsqrt `563d0583` embedded in the notebook (maoxin123); other files as v15 | embedded binary data (invsqrt) removed |
+| 17 | [v17.ipynb](v17.ipynb) | 11 | 105 | — | a DQI with three more retained AND products from my own scan on `575b043f` (-3 Toffolis, `327b0751`) | embedded binary data (invsqrt, patch) removed |
+| 18 | [v18.ipynb](v18.ipynb) | 11 | 105 | **28.18084** (submission 58485562, 2026-11-18 00:00 UTC) | boristown's six-product DQI `5f901c55` (rebuilt as a byte patch on `575b043f`); submitted | other authors' files; a tie with the board; embedded binary data (invsqrt, patch) removed |
 
 ## Used by others (8 public notebooks)
 

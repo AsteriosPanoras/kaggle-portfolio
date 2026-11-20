@@ -1,6 +1,6 @@
 # Squares 22.134 | Play with boxes best public lb
 
-Kaggle: [https://www.kaggle.com/code/asteriospanoras/squares-22-134-play-with-boxes-best-public-lb](https://www.kaggle.com/code/asteriospanoras/squares-22-134-play-with-boxes-best-public-lb) · votes: 12 (2026-11-17 midday) · versions: 18 · no medal claimed
+Kaggle: [https://www.kaggle.com/code/asteriospanoras/squares-22-134-play-with-boxes-best-public-lb](https://www.kaggle.com/code/asteriospanoras/squares-22-134-play-with-boxes-best-public-lb) · votes: 17 (2026-11-20) · versions: 29 (v19 to v29 added on 2026-11-20) · no medal claimed
 
 Renamed several times (for example "Squares 22.1367 | New Best + 4 Own Improvements", then "Squares 22.135 | Best-of Merge + Own Hop"); the old addresses I checked redirect to the current one (HTTP 302 on 2026-11-17).
 
@@ -30,3 +30,14 @@ All versions are public on Kaggle. The files here are their sources, outputs str
 | 16 | [v16.ipynb](v16.ipynb) | 6 | 58 | 22.13377 |
 | 17 | [v17.ipynb](v17.ipynb) | 6 | 58 | 22.13377 |
 | 18 | [v18.ipynb](v18.ipynb) | 6 | 58 | 22.13377 |
+| 19 | [v19.ipynb](v19.ipynb) | 6 | 58 | 22.13377 |
+| 20 | [v20.ipynb](v20.ipynb) | 6 | 58 | 22.13377 |
+| 21 | [v21.ipynb](v21.ipynb) | 6 | 58 | 22.13377 |
+| 22 | [v22.ipynb](v22.ipynb) | 6 | 58 | 22.13351 |
+| 23 | [v23.ipynb](v23.ipynb) | 6 | 58 | 22.13351 |
+| 24 | [v24.ipynb](v24.ipynb) | 6 | 58 | 22.13335 |
+| 25 | [v25.ipynb](v25.ipynb) | 6 | 58 | 22.13335 |
+| 26 | [v26.ipynb](v26.ipynb) | 6 | 58 | 22.13202 |
+| 27 | [v27.ipynb](v27.ipynb) | 6 | 58 | 22.13202 |
+| 28 | [v28.ipynb](v28.ipynb) | 6 | 58 | 22.13193 |
+| 29 | [v29.ipynb](v29.ipynb) | 6 | 58 | 22.13193 |

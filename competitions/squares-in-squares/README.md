@@ -1,16 +1,16 @@
 # Kaggle Playground: Squares in Squares
 
-Competition: [kaggle.com/competitions/squares-in-squares](https://www.kaggle.com/competitions/squares-in-squares) (pack n unit squares, n = 1 to 1,000, into the smallest enclosing square; the score is the sum over n of side / sqrt(n) - 1, lower is better). On 2026-11-17 the CLI lists 2,184 teams and me at rank 237; that rank is a snapshot of the public board, which can move.
+Competition: [kaggle.com/competitions/squares-in-squares](https://www.kaggle.com/competitions/squares-in-squares) (pack n unit squares, n = 1 to 1,000, into the smallest enclosing square; the score is the sum over n of side / sqrt(n) - 1, lower is better). On 2026-11-17 the CLI listed 2,184 teams and me at rank 237 (not re-checked on 2026-11-20); that rank is a snapshot of the public board, which can move.
 
 This is a side project, not the main work of this portfolio. **My part is small**: almost every packing in my public files was published by other authors first, and both the notebook and the dataset credit them.
 
 ## Notebook
 
 [Squares 22.134 | Play with boxes best public lb](https://www.kaggle.com/code/asteriospanoras/squares-22-134-play-with-boxes-best-public-lb)
-(12 votes on 2026-11-17; 18 public versions, all in [`notebooks/squares-22-134-play-with-boxes-best-public-lb/`](notebooks/squares-22-134-play-with-boxes-best-public-lb/), outputs stripped).
+(17 votes on 2026-11-20, 12 on 2026-11-17; 29 public versions, v19 to v29 added on 2026-11-20, all in [`notebooks/squares-22-134-play-with-boxes-best-public-lb/`](notebooks/squares-22-134-play-with-boxes-best-public-lb/), outputs stripped).
 It validates the packings of my dataset (overlap check, score) and can write the submission file. The packings are the per-puzzle best of the newest public outputs of many authors (Penguin, Nilanjan Saha, Sung Heo (kmmmvs), Areeb Ali, Nevska, samanyu1808, jazivxt, Malyshev Danil and others, credited in the notebook); what I add are a few puzzles shortened by basin hopping and certified with the competition metric (n=585, 632 and 914; 747, 748, 749 and 804 by a hair).
 
-Public scores of my submissions (read with `kaggle competitions submissions squares-in-squares` on 2026-11-17; lower is better): 22.14620 (a validated copy of Malyshev Danil's Living Atlas packings, 2026-11-15), 22.13678 (a public base plus four own improvements, 2026-11-15), 22.13518 (2026-11-16), 22.13437 (2026-11-17 01:28 UTC, submission 58451256) and **22.13377** (2026-11-17 10:30 UTC, submission 58465388: a merge that includes the newest public outputs of Penguin and others). The large steps of these days come from other authors' outputs that the merge takes over; my own hops are a small part of each step.
+Public scores of my submissions (read with `kaggle competitions submissions squares-in-squares` on 2026-11-17; lower is better): 22.14620 (a validated copy of Malyshev Danil's Living Atlas packings, 2026-11-15), 22.13678 (a public base plus four own improvements, 2026-11-15), 22.13518 (2026-11-16), 22.13437 (2026-11-17 01:28 UTC, submission 58451256) 22.13377 (2026-11-17 10:30 UTC, submission 58465388: a merge that includes the newest public outputs of Penguin and others), then 22.13351 (Alex Chilton's starter-kit packings n=330 and 367, 12:10 UTC), 22.13335 (15:07 UTC, with a certified micro-shrink), 22.13202 (18:01 UTC, with Ross Wade's engine packings and a Hopper search for n=645) and **22.13193** (2026-11-17 18:50 UTC, submission 58479242, a merge that adds Areeb Ali's "The Last 1e-9"; read on 2026-11-20, the last submission in that list and the score the notebook's version 28 and 29 state). Not re-checked on 2026-11-20: the current public-board rank. The large steps of these days come from other authors' outputs that the merge takes over; my own hops are a small part of each step.
 
 ## Dataset
 
