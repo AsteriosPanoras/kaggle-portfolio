@@ -58,14 +58,14 @@ through the Kaggle interface).
 | 6 | 39-41 | QCC 31.69052 \| Best public score and credits | static page: who is responsible for each part of the best score, the ideas in plain words, 24 linked credits | the page and its checks |
 | 7 | 42-45 | QCC 33.06908 \| Best public score and credits | v42 and v43 packaged tonylica's and Rithvik Redrouthu's sets (no submission); v44 combined, per task, Rithvik Redrouthu's invsqrt and chemistry with tonylica's DQI and scored **33.06908**; v45 is the final text with no submission file | none of the files; the choice of files is mine |
 
-### D. "Free CZ Fix" notebook (versions 1 to 20, 2026-11-12 to 2026-11-21)
+### D. "Free CZ Fix" notebook (versions 1 to 23, 2026-11-12 to 2026-11-21)
 
 | Phase | Versions | Title at the time | Content | Part of it mine |
 |---|---|---|---|---|
 | 1 | 1-6 | QCC 27.30 \| Public Frontier + Free CZ Fix in invsq | the invsqrt dead-write fix (one Toffoli fewer per shot, exact), shipped in 14 public notebooks; v5 scored **27.30241** | the edit at that site |
 | 2 | 7-13 | renamed during these versions to QCC 31.68 \| What we tried, what failed and why | measured experiments of 19-20 Nov on the public ThemBones files (110th inverse site, dead-tail DQI edits, invsqrt tightness, qubit census, chemistry loaders), pricing table; v12 re-packaged the 31.68159 set (**31.68159**, tie) | the experiments and their negative results |
 | 3 | 14-15 | QCC 31.69052 \| What we tried, what failed and why | same page; v14 submitted the Almond Labs set (**31.69052**, tie); v15 reads Atlas only, no submission file | as above |
-| 4 | 16-20 | QCC 33.1 \| Ablation, Floors, Human vs AI, Next? | explainer: system map, ablation by task and by idea, floors per lever, investment table, human insight vs AI search with four worked examples and research basis, then the earlier experiments; v18 submitted goodpjw2008's set (**33.10186**, tie with his public notebook); v19 and v20 are final versions with no submission file (v20 corrects one sentence about the public best) | the explanation, the arithmetic and the experiments |
+| 4 | 16-23 | QCC 33.1 \| Ablation, Floors, Human vs AI, Next? | explainer: system map, ablation by task and by idea, floors per lever, investment table, human insight vs AI search with four worked examples and research basis, then the earlier experiments; v18 submitted goodpjw2008's set (**33.10186**, tie with his public notebook); v21 submitted boristown's set (**33.10185** on the board), v22 maoxin123's 33.135 set (**33.13514**, tie with his public notebook); v19, v20 and v23 are final versions with no submission file | the explanation, the arithmetic and the experiments |
 
 Version 16 and version 18 of D, and versions 42 to 44 of C, wrote a `submission.zip` into their output (needed to submit
 through the notebook); the final versions (D v19, C v45) write none.
@@ -88,7 +88,9 @@ on 2026-11-21 the top of the leaderboard is 33.34845 (team Z³C¹oherence, VERIF
 | 2026-11-20 | C v36, D v12 | 31.68159 | tie | team ThemBones + almondlabs |
 | 2026-11-20 | C v38, D v14 | 31.69052 | tie with Almond Labs (31.69054 in their notebook) | Almond Labs on ThemBones |
 | 2026-11-21 | C v44 | 33.06908 | tie with three teams on the board; the combination was assembled by me from public files | Rithvik Redrouthu + tonylica |
-| 2026-11-21 | D v18 | **33.10186** | tie with goodpjw2008's public notebook (33.10186); **0.00003 below the public best of that day**, boristown's notebook *VQCC 33.102 LB \| DAG Splicing* (33.10189 official GM in its text, [link](https://www.kaggle.com/code/boristown/vqcc-33-102-lb-dag-splicing-visual-guide)) | goodpjw2008's set |
+| 2026-11-21 | D v18 | 33.10186 | tie with goodpjw2008's public notebook (33.10186) | goodpjw2008's set |
+| 2026-11-21 | D v21 | 33.10185 | boristown's notebook [VQCC 33.102 LB \| DAG Splicing](https://www.kaggle.com/code/boristown/vqcc-33-102-lb-dag-splicing-visual-guide) reports 33.10189 locally; on the board the same set gave 33.10185 (noise of the DQI draw, about 0.00004) | boristown's set |
+| 2026-11-21 | D v22 | **33.13514** | **tie with maoxin123's public notebook (33.13514), the public best of that day**; the top of the leaderboard (33.34845) is above it | maoxin123's 33.135 set |
 
 The full list of 50 submissions (including the October ones) with their descriptions is `kaggle competitions submissions` (VERIFIED on 2026-11-21);
 the scores of my November notebooks are in the [progression table](README.md#my-leaderboard-progression).
@@ -116,11 +118,12 @@ superseded by a better file from another author within days, and **no byte of my
 credit for the **LP angle re-solve as an idea** (Almond Labs, almondlabs, ThemBones), use of the **Atlas** as an
 input, and the **public record of what fails**.
 
-## 5. Credit chain of the 33.10186 set (and what differs in the 33.10189 set), so that no credit is lost
+## 5. Credit chain of the 33.13514 set (and of the 33.10186 / 33.10185 sets it builds on), so that no credit is lost
 
 | Part | Author (public notebook) | Link |
 |---|---|---|
-| set assembled, dead-word loader chain, verification | goodpjw2008 | [QCC \| Dead-Word Loader Chain DP \| LB 33.10186](https://www.kaggle.com/code/goodpjw2008/qcc-dead-word-loader-chain-dp-lb-33-10186) |
+| 33.135 chemistry: 15 loaders recompiled to 3,375 Toffolis per pass, refitted weights | maoxin123 | [QCC 33.135 \| 3,375-Toffoli chemistry loaders](https://www.kaggle.com/code/maoxin123/qcc-33-135-3-375-toffoli-chemistry-loaders) (on the word table `fc4b4c01`: Team ThemBones' design, Almond Labs' table, ozertuu's refit) |
+| set assembled, dead-word loader chain, verification (33.10186) | goodpjw2008 | [QCC \| Dead-Word Loader Chain DP \| LB 33.10186](https://www.kaggle.com/code/goodpjw2008/qcc-dead-word-loader-chain-dp-lb-33-10186) |
 | invsqrt `d2148a7c` (37 qubits) and five chemistry loaders | Rithvik Redrouthu | [Shut up and Calculate \| VQCC 32.86114](https://www.kaggle.com/code/rithvikredrouthu/shut-up-and-calculate-vqcc-32-86114) |
 | DQI `4b572141` and the generator dataset | tonylica | [Quantum AI 32.85306 Ready](https://www.kaggle.com/code/tonylica/quantum-ai-32-85306-ready) |
 | recompiled loader 6 | boristown | [VQCC 33.102 LB \| DAG Splicing](https://www.kaggle.com/code/boristown/vqcc-33-102-lb-dag-splicing-visual-guide) |

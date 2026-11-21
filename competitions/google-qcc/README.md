@@ -129,6 +129,8 @@ the November ones were each made from a public notebook version listed above.
 | 2026-11-20 | 31.69052 (Free CZ notebook v14, 21:05 UTC, submission 58635907; the same bytes) |
 | 2026-11-21 | **33.06908** (analysis notebook v44, 00:53 UTC, submission 58643150; per task: Rithvik Redrouthu's invsqrt and chemistry, tonylica's DQI; the combination is mine, every file is theirs; the same score as three other teams) |
 | 2026-11-21 | **33.10186** (Free CZ notebook v18, 11:16 UTC, submission 58663801; goodpjw2008's file set, a tie with his public notebook of the same score; boristown's notebook of that day reports 33.10189) |
+| 2026-11-21 | 33.10185 (Free CZ notebook v21, 13:03 UTC, submission 58669649; boristown's set, 33.10189 in his notebook) |
+| 2026-11-21 | **33.13514** (Free CZ notebook v22, 13:46 UTC, submission 58670546; maoxin123's 33.135 set, a tie with his public notebook) |
 
 ## Evidence that other people used this work
 
