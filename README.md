@@ -104,6 +104,8 @@ Details, dates and links for every row: [competitions/google-qcc/evidence/USES.m
 
 **Scan of 2026-11-21** (latest versions of the 119 most recently run notebooks, 117 read): **52 notebooks mention me** (34 authors), **7 attach one of my notebooks or the Atlas as an input**, 21 credit the invsqrt LP angle re-solve, 5 cite my board score 28.15096, 9 carry an overstated credit. No file of mine is in the best public sets as bytes. Table in [USES.md](competitions/google-qcc/evidence/USES.md).
 
+**Datasets (check of 2026-11-21, 49 public datasets plus those behind the top notebooks):** 11 mention me. The credit for my **LP angle re-solve** sits in the NOTICE of ThemBones' generators dataset and is copied into `rupam2020/qcc-no-bodies-milestone`, an input of the two top public notebooks of that day. manwithacat's dataset `vqcc-chemistry-negative-results` **catalogues five of my negative results** (rows NR-0305 to NR-0309, linking my notebook). My `kmsim` simulator is reused unmodified in cosmorin's dataset and listed in manwithacat's toolkit; 10 notebooks of 6 other authors attach my Atlas dataset. Details in [USES.md](competitions/google-qcc/evidence/USES.md).
+
 * **68 public notebooks by 49 other authors** use or credit my work (55 / 41 at the all-versions scan of 15 Nov, 13 / 8 more from the scans of 16 and 17 Nov, which read latest versions only); 12 of the first 55 show it
   only in older versions (authors change files between versions), so every row lists the versions where it appears.
 * **33 public notebooks by 27 authors** ship files I published first (identical SHA-256) or name them in their receipts, e.g.

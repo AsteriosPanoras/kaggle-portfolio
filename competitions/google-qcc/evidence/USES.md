@@ -430,3 +430,34 @@ Method: `kaggle kernels list --competition ... --sort-by dateRun` (3 pages of 40
 | [vqcc-frontier-sota-portfolio-31-69692](https://www.kaggle.com/code/srinath2495/vqcc-frontier-sota-portfolio-31-69692) | srinath2495 | LP angle re-solve (credited as prior art) |
 | [vqcc-milestone-sota-32-30740-verified-portfolio](https://www.kaggle.com/code/srinath2495/vqcc-milestone-sota-32-30740-verified-portfolio) | srinath2495 | LP angle re-solve (credited as prior art) |
 | [qcc-28-23765-reproducible-circuit-compilation](https://www.kaggle.com/code/techtech69/qcc-28-23765-reproducible-circuit-compilation) | techtech69 | name in a credits list |
+
+## Datasets that mention me (check of 2026-11-21)
+
+Method: for the datasets used by the top public notebooks and for 49 public datasets found by searching `vqcc`, `qcc milestone`, `quantum circuit compilation`, `kickmix`, I read the dataset description and the NOTICE, CREDITS, README and MANIFEST files (up to 8 per dataset, `kaggle datasets download -f`). **11 of 49 mention me**, plus the dataset of prvsiyan checked separately. Only these file names were searched: a mention inside a circuit file or a long data file is not seen.
+
+**The datasets behind the top notebooks** (goodpjw2008's 33.10186 and boristown's 33.10189 use `rithvikredrouthu/qcc-milestone-set` and `rupam2020/qcc-no-bodies-milestone`; tonylica's 32.85306 uses its own generators dataset):
+
+| Dataset | Mentions me? |
+|---|---|
+| `rithvikredrouthu/qcc-milestone-set` | no (3 text files read) |
+| `rupam2020/qcc-no-bodies-milestone` | **yes**: the copy of the ThemBones NOTICE credits my LP angle re-solve |
+| `tonylica/quantum-ai-32-85306-task-generators` | no (19 text files read) |
+| `danishlynxthembones/vqcc-thembones-milestone-set` | no (23 text files read) |
+| `danishlynxthembones/vqcc-thembones-milestone-generators` | **yes**: its NOTICE credits my LP angle re-solve (this NOTICE is the source of the copies below) |
+
+| Dataset | Author | Where | What of mine | Kind |
+|---|---|---|---|---|
+| [danishlynxthembones/vqcc-thembones-milestone-generators](https://www.kaggle.com/datasets/danishlynxthembones/vqcc-thembones-milestone-generators) | danishlynxthembones | NOTICE | credits "the linear-programming angle re-solve in the public notebooks of asteriospanoras and hayatohikawa" (prior art of the ThemBones invsqrt) | credit for an idea |
+| [rupam2020/qcc-no-bodies-milestone](https://www.kaggle.com/datasets/rupam2020/qcc-no-bodies-milestone) | rupam2020 | third_party/thembones_generators/NOTICE (a copy of the ThemBones NOTICE) | the same credit line; **this dataset is an input of the two top public notebooks of 2026-11-21 (goodpjw2008's 33.10186 and boristown's 33.10189)** | credit for an idea, in the dataset behind the top notebooks |
+| [mliston/vqcc-milestone-generators-32-30740](https://www.kaggle.com/datasets/mliston/vqcc-milestone-generators-32-30740) | mliston | NOTICE, CREDITS.md (4 copies) | the same credit line copied from the ThemBones NOTICE | credit for an idea |
+| [mliston/vqcc-milestone-set-32-30740](https://www.kaggle.com/datasets/mliston/vqcc-milestone-set-32-30740) | mliston | CREDITS.md | the same credit line | credit for an idea |
+| [loxigicck/vqcc-midterm-python-sources](https://www.kaggle.com/datasets/loxigicck/vqcc-midterm-python-sources) | loxigicck | NOTICE | the same credit line | credit for an idea |
+| [yatinintelligence/vqcc-31-68189-gauge-rotated-chemistry-table](https://www.kaggle.com/datasets/yatinintelligence/vqcc-31-68189-gauge-rotated-chemistry-table) | yatinintelligence | THIRD_PARTY_NOTICE_milestone_generators; THIRD_PARTY_SOURCE_CREDITS_milestone_set.md | the same credit line, and "credited ideas of James Barlow (manwithacat), Jeff Emerson, Asterios Panoras and Hayato Hikawa" | credit for an idea |
+| [manwithacat/vqcc-chemistry-negative-results](https://www.kaggle.com/datasets/manwithacat/vqcc-chemistry-negative-results) | manwithacat | ledger.csv, rows NR-0305 to NR-0309 (+ NR-0253, NR-0254) | records **five of my negative results** (LP optimum of the invsqrt angles; no rotation or T gate droppable; none of 1,548 Toffolis removable; the DQI retained-product scan; the chemistry loader greedy search) with a link to my notebook, tier "author-reported", licence Apache-2.0, dated 2026-11-19; two rows (NR-0253, NR-0254) test my splice `9c708f7b` as the pick | my negative results catalogued by another author (a registry meant to avoid repeating them) |
+| [manwithacat/vqcc-hedge-wizardry](https://www.kaggle.com/datasets/manwithacat/vqcc-hedge-wizardry) | manwithacat | README.md | credits me with finding the q21 edit independently (links my notebook v7) | credit for an edit |
+| [manwithacat/vqcc-agent-toolkit](https://www.kaggle.com/datasets/manwithacat/vqcc-agent-toolkit) | manwithacat | README.md (and the copies in vqcc-tools-0.1.0) | lists "Asterios Panoras's kmsim" among the tools of its toolkit | my simulator is part of another author's toolkit |
+| [cosmorin/qcc-31-67947-frontier-set](https://www.kaggle.com/datasets/cosmorin/qcc-31-67947-frontier-set) | cosmorin | NOTICE | "tools/kmsim/kmsim.py is Asterios Panoras's kmsim (Apache-2.0), copied unmodified from the public QCC Atlas toolkit" | my tool reused unmodified |
+| [apihpih/qcc-lb25396-verified-portfolio](https://www.kaggle.com/datasets/apihpih/qcc-lb25396-verified-portfolio) | apihpih | CREDITS.md | "None of the circuits are ours": taken byte for byte from the Apache-2.0 output of my first notebook (version live on 12 Nov, before its version 5) | my files reused byte for byte |
+| [prvsiyan/vqcc-verified-best-of-circuits-1106a](https://www.kaggle.com/datasets/prvsiyan/vqcc-verified-best-of-circuits-1106a) | prvsiyan | MANIFEST.json, README.md | keeps my invsqrt splice `9c708f7b` as study files (`alt_v20/inv9c708f7b9abc_asteriospanoras/`) and credits the readout-window transplant to me | my file kept as study file, credit for two edits |
+
+**My own Atlas dataset** (`kaggle kernels list --dataset asteriospanoras/qcc-circuit-atlas`, 2026-11-21): 14 notebooks attach it, 4 of them mine; **10 notebooks of 6 other authors** (ahoirg, kawh1111 x2, mizeroluckygall, ozertuu x3, priyanshurajpgiit x2, thomasgamet). On 2026-11-18 the count was 5 notebooks of 3 authors.
