@@ -1,8 +1,13 @@
-# QCC 28.23162 | What we tried, what failed and Why (folder name keeps the old slug)
+# QCC 33.06908 | Best public score and credits (folder name keeps the old slug `qcc-28-12769-what-works-what-fails-and-why`; formerly "What we tried, what failed and Why")
 
-Kaggle: [https://www.kaggle.com/code/asteriospanoras/qcc-28-23162-what-we-tried-what-failed-and-why](https://www.kaggle.com/code/asteriospanoras/qcc-28-23162-what-we-tried-what-failed-and-why) · medal: bronze (earlier state; not re-checked) · votes: 46 (2026-11-20) · versions: 35 (v36 does not exist; read on 2026-11-20)
+> **State of 2026-11-21.** Address today: [qcc-33-06908-best-public-score-and-credits](https://www.kaggle.com/code/asteriospanoras/qcc-33-06908-best-public-score-and-credits) · 70 votes · 45 versions. The content changed over time (analysis, then fast re-packaging versions, then a static credits page): see [NOTEBOOK_MAP.md](../../NOTEBOOK_MAP.md), section 2C, for what each version range was and what part of it is mine.
+
+
+Kaggle: [https://www.kaggle.com/code/asteriospanoras/qcc-33-06908-best-public-score-and-credits](https://www.kaggle.com/code/asteriospanoras/qcc-33-06908-best-public-score-and-credits) · medal: bronze (earlier state; not re-checked) · votes: 70 (2026-11-21) · versions: 45 (read on 2026-11-21)
 
 ## Address history
+
+Addresses in order (the older ones are expected to redirect to the current one; I checked only the 2026-11-15 and 2026-11-16 ones, on 2026-11-17): `qcc-27-30-what-works-what-fails-and-why` -> `qcc-28-06018-...` -> `qcc-28-12769-...` -> `qcc-28-23162-what-we-tried-what-failed-and-why` -> `qcc-28-24396-...` -> `qcc-31-68159-what-we-tried-what-failed-and-why` -> `qcc-31-69052-best-public-score-and-credits` -> **`qcc-33-06908-best-public-score-and-credits`** (the last two renames on 2026-11-20 and 2026-11-21; the owner names it in the Kaggle interface). Older notes follow.
 
 After the notes below, I renamed the notebook several more times in the Kaggle interface on 2026-11-18. The title now reads "QCC 28.23162 | What we tried, what failed and Why" (`qcc-28-23162-what-we-tried-what-failed-and-why`, read with `kaggle kernels list --mine` on 2026-11-18 evening); the older addresses are expected to redirect (I checked the 2026-11-15 and 2026-11-16 ones on 2026-11-17, not the newer ones).
 
@@ -84,6 +89,16 @@ All versions are public on Kaggle (open the notebook, then "Version history"). T
 | 33 | [v33.ipynb](v33.ipynb) | 80 | 1266 | — | full analysis of the 28.23498 set | newer file sets not analysed yet |
 | 34 | [v34.ipynb](v34.ipynb) | 2 | 18 | 28.24094 (submission 58581362) | fast version: the 28.24094 set (manwithacat DQI `f6b555a6`, ozertuu invsqrt `acc7b9c8`, chemistry `6ef06081`) | other authors' files; a tie with the public notebooks of ozertuu and manwithacat |
 | 35 | [v35.ipynb](v35.ipynb) | 2 | 14 | 28.24396 (tie, other authors' files) | fast version: Ghazaros Barseghyan's 28.24398 set (invsqrt `d0a9a694`, DQI `db0a845f`, chemistry `6ef06081`); submission 58608424 | other authors' files |
+| 36 | — | — | — | 31.68159 (submission 58626935, 2026-11-20 17:56 UTC) | fast version: the public file set of almondlabs' notebook *VQCC 31.68159 Improved Chemistry Gauge and Loader* (team ThemBones' circuits with almondlabs' chemistry) | other authors' files; a tie with the public file set; **prvsiyan's notebook credits "V36" to me for loader work that is almondlabs' (see CONTRIBUTIONS.md, section 5)**; source not stored here, open Kaggle version history |
+| 37 | — | — | — | — | intermediate version between the 31.68159 and 31.69054 packaging | not individually recorded here |
+| 38 | — | — | — | 31.69052 (submission 58634575, 2026-11-20 20:21 UTC) | fast version: the Almond Labs 31.69054 set (invsqrt `be4ce1be`, DQI `8e0837e5`, chemistry `3f95076d`) | other authors' files; a tie; source not stored here |
+| 39 | — | 22 | — | — | static page: who is responsible for each part of the best score, the ideas in plain words | the page and its checks are mine; the descriptions are the authors' |
+| 40 | — | 22 | — | — | identical to 39 (a build error left the old text) | fixed in 41 |
+| 41 | — | 22 | — | — | the same page with 24 credit rows, every one linked | |
+| 42 | — | — | — | — | adds the 32.85306 notebook of tonylica as source (no submission made from it) | other authors' files |
+| 43 | — | — | — | — | the 32.86114 set of Rithvik Redrouthu as source (no submission made from it) | other authors' files |
+| 44 | — | — | — | **33.06908** (submission 58643150, 2026-11-21 00:53 UTC) | per task: invsqrt `d2148a7c` and chemistry from Rithvik Redrouthu, DQI `4b572141` from tonylica; submitted | other authors' files; the combination is mine; a tie with three teams on the board |
+| 45 | [v45.ipynb](v45.ipynb) | 22 | 29 | — | final text: 33.06908 page, `WRITE_SUBMISSION = False`, no submission file in the output | other authors' files |
 
 ## Used by others (0 public notebooks)
 

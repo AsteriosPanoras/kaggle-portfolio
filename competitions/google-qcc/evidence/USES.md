@@ -374,3 +374,59 @@ Reuse by file:
 | 69 | [gift-from-thembones-vqcc-31-67924](https://www.kaggle.com/code/danishlynxthembones/gift-from-thembones-vqcc-31-67924) | danishlynxthembones | 46 | 2026-11-20 | latest | text credit (read 2026-11-20): the invsqrt credits list "the linear-programming angle re-solve in the public notebooks of asteriospanoras and hayatohikawa" as prior art that overlaps their own angle solve; our files are not shipped |
 | 70 | [vqcc-31-68159-improved-chemistry-gauge-and-loader](https://www.kaggle.com/code/almondlabs/vqcc-31-68159-improved-chemistry-gauge-and-loader) | almondlabs | 0 | 2026-11-20 | latest | text credit (read 2026-11-20): asteriospanoras is named in its list of upstream credits and, for the LP angle re-solve, in the prior-art note it keeps from the ThemBones release; builds on the ThemBones set, not on our files |
 | 71 | [verifier-guided-quantum-circuit-optimization](https://www.kaggle.com/code/prvsiyan/verifier-guided-quantum-circuit-optimization) | prvsiyan | 48 | 2026-11-20 | latest | text credit, **overstated**: credits "Asterios Panoras (V36 of his notebook)" with the k5/k6/k7 loader re-encoding; that work is almondlabs' (my v36 only re-packaged their public file set). Not counted as use of my work |
+
+## Scan of 2026-11-21 (the 119 most recently run public notebooks)
+
+Method: `kaggle kernels list --competition ... --sort-by dateRun` (3 pages of 40), then `kaggle kernels pull -m` for each notebook, and a text search of the latest version for `asteriospanoras` or `Panoras`, plus the notebook's kernel and dataset inputs. 119 notebooks listed, **117 read** (2 could not be pulled), my own notebooks excluded. Latest versions only: older versions and outputs were not read, so these are minimum counts.
+
+* **52 notebooks mention me** (34 authors, counting only authors other than me); **7 attach one of my notebooks or the Atlas as an input** (areebbb, priyanshurajpgiit x2, kawh1111 x2, thomasgamet, bhaviklimani).
+* **21** credit the invsqrt **LP angle re-solve** in a prior-art list (almondlabs, Almond Labs, ThemBones, liuzewen123, bandlapallisudharani, benadictinfanta, bingchenzhao, dziyanavalenta, mliston and others); **5** cite my board score 28.15096 for the DQI `575b043f`; **7** credit the weight refit; **2** the dead-write idea.
+* **9 carry an overstated credit** (loader work, the V36 table or a DQI that is almondlabs' or others', see [CONTRIBUTIONS.md](../CONTRIBUTIONS.md), section 5).
+* **43 of the 54 rows are new notebooks** (24 authors) not in the earlier scans; they are appended to [uses.csv](uses.csv).
+* **No file of mine is in any of them as bytes**: none of my 11 published file hashes is among the 18 members of the best public set (33.10186), and the notebooks above credit ideas or attach the Atlas, not my circuits.
+
+| Notebook | Author | What of mine |
+|---|---|---|
+| [quantum-omni-v16-8-4-1](https://www.kaggle.com/code/abdelghanicharouiti/quantum-omni-v16-8-4-1) | abdelghanicharouiti | OVERSTATED credit: loaders k5-k7 / V36 table (almondlabs' work, not mine) |
+| [quantum-omni-v16-8-4-x](https://www.kaggle.com/code/abdelghanicharouiti/quantum-omni-v16-8-4-x) | abdelghanicharouiti | OVERSTATED credit: loaders k5-k7 / V36 table (almondlabs' work, not mine) |
+| [quantum-omni-v16-8-5](https://www.kaggle.com/code/abdelghanicharouiti/quantum-omni-v16-8-5) | abdelghanicharouiti | OVERSTATED credit: loaders k5-k7 / V36 table (almondlabs' work, not mine) |
+| [quantum-omni-v16-8-6](https://www.kaggle.com/code/abdelghanicharouiti/quantum-omni-v16-8-6) | abdelghanicharouiti | OVERSTATED credit: loaders k5-k7 / V36 table (almondlabs' work, not mine) |
+| [google-quantum-ai-101](https://www.kaggle.com/code/adilshamim8/google-quantum-ai-101) | adilshamim8 | name in a credits list |
+| [quantum-alex-3168-reproduction-public](https://www.kaggle.com/code/aiokajima/quantum-alex-3168-reproduction-public) | aiokajima | OVERSTATED credit: loaders k5-k7 / V36 table (almondlabs' work, not mine); my board score 28.15096 for DQI 575b043f cited; weight refit credit |
+| [33-10-lb-which-circuits-survive-private-salt](https://www.kaggle.com/code/alexchilton/33-10-lb-which-circuits-survive-private-salt) | alexchilton | OVERSTATED credit: loaders k5-k7 / V36 table (almondlabs' work, not mine); my board score 28.15096 for DQI 575b043f cited; weight refit credit |
+| [almond-labs-qcc-31-69054-demonstrable-advantage](https://www.kaggle.com/code/almondlabs/almond-labs-qcc-31-69054-demonstrable-advantage) | almondlabs | LP angle re-solve (credited as prior art) |
+| [almond-labs-qcc-31-69692-demonstrable-advantage](https://www.kaggle.com/code/almondlabs/almond-labs-qcc-31-69692-demonstrable-advantage) | almondlabs | LP angle re-solve (credited as prior art) |
+| [almond-labs-qcc-31-70105-demonstrable-advantage](https://www.kaggle.com/code/almondlabs/almond-labs-qcc-31-70105-demonstrable-advantage) | almondlabs | LP angle re-solve (credited as prior art) |
+| [qai-same-gates-better-chemistry-33-10185](https://www.kaggle.com/code/areebbb/qai-same-gates-better-chemistry-33-10185) | areebbb | my board score 28.15096 for DQI 575b043f cited; kernel/dataset input: asteriospanoras/qcc-lb-28-09535 |
+| [qcc-target34-all-three-circuit-optimization](https://www.kaggle.com/code/bandlapallisudharani/qcc-target34-all-three-circuit-optimization) | bandlapallisudharani | LP angle re-solve (credited as prior art) |
+| [quantum-circuit-optimization-31-679458](https://www.kaggle.com/code/bandlapallisudharani/quantum-circuit-optimization-31-679458) | bandlapallisudharani | LP angle re-solve (credited as prior art) |
+| [quantum-circuit-optimization-31-679478](https://www.kaggle.com/code/bandlapallisudharani/quantum-circuit-optimization-31-679478) | bandlapallisudharani | LP angle re-solve (credited as prior art) |
+| [quantum-circuit-optimization-31-69054](https://www.kaggle.com/code/bandlapallisudharani/quantum-circuit-optimization-31-69054) | bandlapallisudharani | LP angle re-solve (credited as prior art) |
+| [vqcc-milestone-verification-sota-portfolio](https://www.kaggle.com/code/benadictinfanta/vqcc-milestone-verification-sota-portfolio) | benadictinfanta | LP angle re-solve (credited as prior art) |
+| [widle-quantum-ai-research-optimization](https://www.kaggle.com/code/bhaviklimani/widle-quantum-ai-research-optimization) | bhaviklimani | weight refit credit; kernel/dataset input: asteriospanoras/qcc-28-18084-could-be-top-1-public-try-it,asteriospanoras/qcc-33-06908-best-public-score-and-credits |
+| [widle-verified-quantum-circuit-compilatio](https://www.kaggle.com/code/bhaviklimani/widle-verified-quantum-circuit-compilatio) | bhaviklimani | name in a credits list |
+| [vqcc-31-68-verified-three-task-submission](https://www.kaggle.com/code/bingchenzhao/vqcc-31-68-verified-three-task-submission) | bingchenzhao | name in a credits list |
+| [vqcc-33-102-lb-dag-splicing-visual-guide](https://www.kaggle.com/code/boristown/vqcc-33-102-lb-dag-splicing-visual-guide) | boristown | name in a credits list |
+| [qcc-28-24094-hw31-portfolio](https://www.kaggle.com/code/cosmorin/qcc-28-24094-hw31-portfolio) | cosmorin | name in a credits list |
+| [qcc-28-24101-prelude3-portfolio](https://www.kaggle.com/code/cosmorin/qcc-28-24101-prelude3-portfolio) | cosmorin | name in a credits list |
+| [qcc-33-10020-tie-portfolio-reproduction](https://www.kaggle.com/code/cosmorin/qcc-33-10020-tie-portfolio-reproduction) | cosmorin | OVERSTATED credit: loaders k5-k7 / V36 table (almondlabs' work, not mine); my board score 28.15096 for DQI 575b043f cited; weight refit credit |
+| [31-45-every-circuit-generated-submission](https://www.kaggle.com/code/dziyanavalenta/31-45-every-circuit-generated-submission) | dziyanavalenta | LP angle re-solve (credited as prior art) |
+| [q2026-v154-submission-nb](https://www.kaggle.com/code/dziyanavalenta/q2026-v154-submission-nb) | dziyanavalenta | LP angle re-solve (credited as prior art) |
+| [vqcc-milestone-thembones-cheaper-chem-loaders](https://www.kaggle.com/code/jeffemerson/vqcc-milestone-thembones-cheaper-chem-loaders) | jeffemerson | OVERSTATED credit: loaders k5-k7 / V36 table (almondlabs' work, not mine); weight refit credit |
+| [qcomp-atlas-read](https://www.kaggle.com/code/kawh1111/qcomp-atlas-read) | kawh1111 | kernel/dataset input: asteriospanoras/qcc-circuit-atlas |
+| [qcomp-harvest-2823](https://www.kaggle.com/code/kawh1111/qcomp-harvest-2823) | kawh1111 | kernel/dataset input: asteriospanoras/qcc-circuit-atlas |
+| [vqcc-31-68312-grg-and-gauge-chemistry](https://www.kaggle.com/code/liuzewen123/vqcc-31-68312-grg-and-gauge-chemistry) | liuzewen123 | LP angle re-solve (credited as prior art) |
+| [vqcc-31-69054-almond-release-reverified](https://www.kaggle.com/code/liuzewen123/vqcc-31-69054-almond-release-reverified) | liuzewen123 | LP angle re-solve (credited as prior art) |
+| [vqcc-31-69054-reverified-almond-labs-qcc-31-69054](https://www.kaggle.com/code/liuzewen123/vqcc-31-69054-reverified-almond-labs-qcc-31-69054) | liuzewen123 | LP angle re-solve (credited as prior art) |
+| [vqcc-31-69692-reverified-almond-labs-qcc-31-69692](https://www.kaggle.com/code/liuzewen123/vqcc-31-69692-reverified-almond-labs-qcc-31-69692) | liuzewen123 | LP angle re-solve (credited as prior art) |
+| [vqcc-33-10189-v46-reverified-dag-splice-k6](https://www.kaggle.com/code/liuzewen123/vqcc-33-10189-v46-reverified-dag-splice-k6) | liuzewen123 | name in a credits list |
+| [qcc-28-24-4-022-toffoli-chemistry-loaders](https://www.kaggle.com/code/maoxin123/qcc-28-24-4-022-toffoli-chemistry-loaders) | maoxin123 | dead-write / measured-CZ idea; weight refit credit |
+| [quantum-ai-highest-public-lb-score](https://www.kaggle.com/code/matterhorn3838/quantum-ai-highest-public-lb-score) | matterhorn3838 | name in a credits list |
+| [vqcc-verified-three-task-set-32-30740](https://www.kaggle.com/code/mliston/vqcc-verified-three-task-set-32-30740) | mliston | LP angle re-solve (credited as prior art) |
+| [qai-same-gates-better-chemistry-31-69052](https://www.kaggle.com/code/priyanshurajpgiit/qai-same-gates-better-chemistry-31-69052) | priyanshurajpgiit | my board score 28.15096 for DQI 575b043f cited; kernel/dataset input: asteriospanoras/qcc-lb-28-09535 |
+| [qcc-28-24094-what-we-tried-what-failed-a-c58e52](https://www.kaggle.com/code/priyanshurajpgiit/qcc-28-24094-what-we-tried-what-failed-a-c58e52) | priyanshurajpgiit | kernel/dataset input: asteriospanoras/qcc-circuit-atlas |
+| [qcc-28-24094-reproduction-ozertuu](https://www.kaggle.com/code/rdaccel/qcc-28-24094-reproduction-ozertuu) | rdaccel | name in a credits list |
+| [thembones-verified-vqcc-portfolio-31-67924](https://www.kaggle.com/code/ricardoestudiomdix/thembones-verified-vqcc-portfolio-31-67924) | ricardoestudiomdix | LP angle re-solve (credited as prior art) |
+| [vqcc-frontier-sota-portfolio-31-69692](https://www.kaggle.com/code/srinath2495/vqcc-frontier-sota-portfolio-31-69692) | srinath2495 | LP angle re-solve (credited as prior art) |
+| [vqcc-milestone-sota-32-30740-verified-portfolio](https://www.kaggle.com/code/srinath2495/vqcc-milestone-sota-32-30740-verified-portfolio) | srinath2495 | LP angle re-solve (credited as prior art) |
+| [qcc-28-23765-reproducible-circuit-compilation](https://www.kaggle.com/code/techtech69/qcc-28-23765-reproducible-circuit-compilation) | techtech69 | name in a credits list |

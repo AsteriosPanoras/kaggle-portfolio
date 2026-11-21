@@ -1,6 +1,10 @@
-# QCC 27.30 | Public Frontier + Free CZ Fix in invsq
+# QCC 33.1 | Ablation, Floors, Human vs AI, Next? (folder name keeps the old slug `qcc-27-30-public-frontier-free-cz-fix-in-invsq`; first titled "QCC 27.30 | Public Frontier + Free CZ Fix in invsq")
 
-Kaggle: [https://www.kaggle.com/code/asteriospanoras/qcc-27-30-public-frontier-free-cz-fix-in-invsq](https://www.kaggle.com/code/asteriospanoras/qcc-27-30-public-frontier-free-cz-fix-in-invsq) · medal: **bronze** · votes: 15 (2026-11-17 midday) · versions: 6
+> **State of 2026-11-21.** This is the notebook that began as the invsqrt dead-write fix (bronze medal). It was reused on 2026-11-20 and 2026-11-21: versions 7 to 15 became the page *What we tried, what failed and why*, and versions 16 to 20 an explainer. See [NOTEBOOK_MAP.md](../../NOTEBOOK_MAP.md), section 2D.
+
+Kaggle: [https://www.kaggle.com/code/asteriospanoras/qcc-33-1-ablation-floors-human-vs-ai-next](https://www.kaggle.com/code/asteriospanoras/qcc-33-1-ablation-floors-human-vs-ai-next) · medal: **bronze** · votes: 15 (2026-11-21) · versions: 20
+
+Addresses in order: `qcc-27-30-public-frontier-free-cz-fix-in-invsq` -> `qcc-31-68-what-we-tried-what-failed-and-why` -> `qcc-31-69052-what-we-tried-what-failed-and-why` -> `qcc-33-10-how-the-score-is-built-where-to-gain` -> **`qcc-33-1-ablation-floors-human-vs-ai-next`** (renamed in the Kaggle interface on 2026-11-20 and 2026-11-21; I did not check whether the older addresses redirect).
 
 ## Every public version
 
@@ -14,6 +18,16 @@ All versions are public on Kaggle (open the notebook, then "Version history"). T
 | 4 | [v04.ipynb](v04.ipynb) | 11 | 62 | — | new sections: Our change: the invsqrt dead write; removed: DQI: two more retained products (our extension of Areeb Ali's product retention), invsqrt: our splice of WCao24's normaliser and Thomas Gamet's early prefix |  |
 | 5 | [v05.ipynb](v05.ipynb) | 11 | 65 | 27.30241 | same sections, code/text revised |  |
 | 6 | [v06.ipynb](v06.ipynb) | 11 | 65 | — | same sections, code/text revised |  |
+| 7-11 | — | — | — | — | the experiments of 19-20 Nov on the public ThemBones files (110th GF(2^6) inverse site, "dead tail" DQI candidates, invsqrt tightness) and the first builds of the page *QCC 31.68 \| What we tried, what failed and why* (experiment cards, pricing table, figures) | my experiments; the files are other authors'; the individual versions are not recorded here (open the Kaggle version history) |
+| 12 | — | — | — | 31.68159 (submission 58633905, 2026-11-20 20:05 UTC) | the 31.68159 file set re-packaged (hash-checked) | other authors' files; a tie |
+| 13 | — | — | — | — | a build between 12 and 14 | not individually recorded here |
+| 14 | — | — | — | 31.69052 (submission 58635907, 2026-11-20 21:05 UTC) | the Almond Labs 31.69054 set re-packaged | other authors' files; a tie |
+| 15 | — | 24 | — | — | inputs reduced to the Atlas and the competition; no submission file in the output; dark-theme table fix | |
+| 16 | — | — | — | — | Rithvik Redrouthu's set as source (written for a test; reverted in 17) | |
+| 17 | — | 24 | — | — | back to the Atlas-only version of 15 | |
+| 18 | — | 96 | — | **33.10186** (submission 58663801, 2026-11-21 11:16 UTC) | the explainer, with `submission.zip` written from goodpjw2008's public file set (hash-checked) so that it could be submitted | other authors' files; a tie with goodpjw2008's public notebook |
+| 19 | [v19.ipynb](v19.ipynb) | 96 | 399 | — | final version: explainer with `WRITE_SUBMISSION = False`, no submission file in the output; embeds five pictures made with ChatGPT | the explanation, the arithmetic and the experiments are mine |
+| 20 | [v20.ipynb](v20.ipynb) | 96 | 399 | — | corrects one sentence of v19: the notebook's own score (33.10186) is the same as goodpjw2008's public notebook and 0.00003 below the public best (boristown's notebook, 33.10189); `WRITE_SUBMISSION = False`, no submission file in the output | the explanation, the arithmetic and the experiments are mine |
 
 ## Used by others (34 public notebooks)
 

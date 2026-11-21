@@ -1,6 +1,8 @@
 # QCC 28.18084? | Could Be Top 1 public | Try It (originally "QCC 28.1277 | Frontier + Finer Chemistry Refit"; folder name keeps the old slug)
 
-Kaggle: [https://www.kaggle.com/code/asteriospanoras/qcc-28-18084-could-be-top-1-public-try-it](https://www.kaggle.com/code/asteriospanoras/qcc-28-18084-could-be-top-1-public-try-it) · medal: silver (as shown on the notebook, 2026-11-18) · votes: 52 (2026-11-18 evening and 2026-11-20) · versions: 18 (no newer version found on 2026-11-20: version 19 does not exist)
+> Which notebook is which, with the content of each version range and the part of it that is mine: [NOTEBOOK_MAP.md](../../NOTEBOOK_MAP.md). Votes were refreshed on 2026-11-21 with `kaggle kernels list --mine`; the version count was not re-checked on that day.
+
+Kaggle: [https://www.kaggle.com/code/asteriospanoras/qcc-28-18084-could-be-top-1-public-try-it](https://www.kaggle.com/code/asteriospanoras/qcc-28-18084-could-be-top-1-public-try-it) · medal: silver (as shown on the notebook, 2026-11-18) · votes: 53 (2026-11-21) · versions: 18 (no newer version found on 2026-11-20: version 19 does not exist)
 
 Current title and address (read with `kaggle kernels list --mine` on 2026-11-18): "QCC 28.18084? | Could Be Top 1 public | Try It", `qcc-28-18084-could-be-top-1-public-try-it`. Former titles and addresses: first **QCC 27.307 | Frontier + Finer Chemistry Refit** (`qcc-27-307-frontier-finer-chemistry-refit`), then **QCC 27.3122 | Frontier + Finer Chemistry Refit** (`qcc-27-3122-frontier-finer-chemistry-refit`); on 2026-11-16 the old address answered with a redirect to the current one. The new title is the owner's choice.
 

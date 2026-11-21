@@ -1,6 +1,8 @@
 # QCC | LB:28.09535 (formerly "QCC | LB:28.07502 wait daily reset :)"; the folder keeps that address)
 
-Kaggle: [https://www.kaggle.com/code/asteriospanoras/qcc-lb-28-09535](https://www.kaggle.com/code/asteriospanoras/qcc-lb-28-09535) (renamed since 2026-11-18; the old address `qcc-lb-28-07502-wait-daily-reset` redirects to it, HTTP 200 after redirect on 2026-11-20) · medal: silver (as shown on the owner's Kaggle profile, 2026-11-16; not checked anonymously) · votes: 44 (2026-11-20) · versions: 19 (no newer version found on 2026-11-20)
+> Which notebook is which, with the content of each version range and the part of it that is mine: [NOTEBOOK_MAP.md](../../NOTEBOOK_MAP.md). Votes were refreshed on 2026-11-21 with `kaggle kernels list --mine`; the version count was not re-checked on that day.
+
+Kaggle: [https://www.kaggle.com/code/asteriospanoras/qcc-lb-28-09535](https://www.kaggle.com/code/asteriospanoras/qcc-lb-28-09535) (renamed since 2026-11-18; the old address `qcc-lb-28-07502-wait-daily-reset` redirects to it, HTTP 200 after redirect on 2026-11-20) · medal: silver (as shown on the owner's Kaggle profile, 2026-11-16; not checked anonymously) · votes: 44 (2026-11-21) · versions: 19 (no newer version found on 2026-11-20)
 
 ## Address history
 

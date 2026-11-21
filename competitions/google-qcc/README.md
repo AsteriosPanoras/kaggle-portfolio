@@ -2,6 +2,8 @@
 
 Competition: [kaggle.com/competitions/google-verifiable-quantum-circuit-compilation](https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation)
 
+**New: [NOTEBOOK_MAP.md](NOTEBOOK_MAP.md)** maps my four notebooks (titles, addresses, what changed in which version, where they stood on the public score, what was mine, what others adopted and what is left in today's best files, and the credit chain of the current best set).
+
 ## The competition in brief
 
 Teams submit three quantum circuits written in `kickmix`, a gate language whose circuits can be checked shot by shot
@@ -80,6 +82,8 @@ weight files (`.npz`) or `submission.zip` are in this repository.
 
 ## My leaderboard progression
 
+Which notebook each version belongs to, and what each notebook contained in each phase: [NOTEBOOK_MAP.md](NOTEBOOK_MAP.md).
+
 Public leaderboard scores of my submissions (higher is better). The October entries came from private experiments;
 the November ones were each made from a public notebook version listed above.
 
@@ -115,6 +119,16 @@ the November ones were each made from a public notebook version listed above.
 | 2026-11-18 | **28.20041** (analysis notebook v22, 13:39 UTC, submission 58511777; maoxin123's invsqrt `d0227f3c`, other authors' files, re-verified) |
 | 2026-11-18 | 28.18862 (analysis notebook v25, 20:08 UTC, submission 58524065; ozertuu's DQI `e208d350` lost shots on the board draw) |
 | 2026-11-18 | analysis notebook v24, 20:31 UTC, submission 58524618: board 28.23162 |
+| 2026-11-19 | 28.23498 (analysis notebook v28, 11:19 UTC, submission 58557425; Koushik Rudra's file set, a tie with his public notebook) |
+| 2026-11-19 | 28.23837 (analysis notebook v31, 18:35 UTC, submission 58574793; ozertuu's set, same bytes) |
+| 2026-11-19 | 28.24094 (analysis notebook v34, 22:13 UTC, submission 58581362; manwithacat's DQI `f6b555a6`, ozertuu's invsqrt, other authors' chemistry) |
+| 2026-11-20 | 28.24396 (analysis notebook v35, 10:27 UTC, submission 58608424; Ghazaros Barseghyan's 28.24398 set) |
+| 2026-11-20 | 31.68159 (analysis notebook v36, 17:56 UTC, submission 58626935; team ThemBones' circuits with almondlabs' chemistry, a tie with the public file set) |
+| 2026-11-20 | 31.68159 (Free CZ notebook v12, 20:05 UTC, submission 58633905; the same set) |
+| 2026-11-20 | 31.69052 (analysis notebook v38, 20:21 UTC, submission 58634575; the Almond Labs 31.69054 set) |
+| 2026-11-20 | 31.69052 (Free CZ notebook v14, 21:05 UTC, submission 58635907; the same bytes) |
+| 2026-11-21 | **33.06908** (analysis notebook v44, 00:53 UTC, submission 58643150; per task: Rithvik Redrouthu's invsqrt and chemistry, tonylica's DQI; the combination is mine, every file is theirs; the same score as three other teams) |
+| 2026-11-21 | **33.10186** (Free CZ notebook v18, 11:16 UTC, submission 58663801; goodpjw2008's file set, a tie with his public notebook of the same score; boristown's notebook of that day reports 33.10189) |
 
 ## Evidence that other people used this work
 
