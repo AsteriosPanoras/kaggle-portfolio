@@ -104,6 +104,8 @@ All versions are public on Kaggle (open the notebook, then "Version history"). T
 | 46 | — | — | — | **33.21180** (submission 58882874, 2026-11-25 11:02 UTC) | the 33.21180 set of zhuangbility (invsqrt `6b592145`, DQI `6f78ecdd`, loaders of goodpjw2008, table `6ac46e3e`); the page runs the official verifiers and a DQI salt sweep; submitted | other authors' files; a tie with the public notebooks |
 | 47 | — | — | — | — | final text, same code, `WRITE_SUBMISSION = False` | — |
 | 48 | [v48.ipynb](v48.ipynb) | — | — | — | final text with the board score, new opening (picture, cards, staircase chart), table of what 0.01 points are worth, salt reading; no submission file in the output | the page and the verifier runs; files are other authors' |
+| 49 | — | — | — | **33.24213** (submission 58891190, 2026-11-25 13:58 UTC) | the 33.24213 set of goodpjw2008 (version 18): 3,315-Toffoli loaders, dead-word values, table `71e1c87f`; invsqrt and DQI as before; submitted | other authors' files; a tie with his public notebook |
+| 50 | [v50.ipynb](v50.ipynb) | — | — | — | final text with the board score and the salt reading for the 33.24213 set; no submission file in the output | the page and the verifier runs; files are other authors' |
 
 ## Used by others (0 public notebooks)
 

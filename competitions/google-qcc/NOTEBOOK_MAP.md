@@ -21,7 +21,7 @@ on Kaggle; the folders in this repository keep the first address they were store
 |---|---|---|---:|---|---:|---|
 | **A. First notebook** | [qcc-lb-28-09535](https://www.kaggle.com/code/asteriospanoras/qcc-lb-28-09535) | QCC \| LB:28.09535 | 44 | silver | 19 | [qcc-lb-28-07502-wait-daily-reset](notebooks/qcc-lb-28-07502-wait-daily-reset/) |
 | **B. Frontier notebook** | [qcc-28-18084-could-be-top-1-public-try-it](https://www.kaggle.com/code/asteriospanoras/qcc-28-18084-could-be-top-1-public-try-it) | QCC 28.18084? \| Could Be Top 1 public \| Try It | 53 | silver | 18 | [qcc-28-1277-frontier-finer-chemistry-refit](notebooks/qcc-28-1277-frontier-finer-chemistry-refit/) |
-| **C. Analysis / credits notebook** | [qcc-33-2118-who-built-the-public-best-set](https://www.kaggle.com/code/asteriospanoras/qcc-33-2118-who-built-the-public-best-set) | QCC 33.2118 \| Who Built the Public Best Set? | 72 | silver (the owner reports 21+ votes before the rename; not re-checked) | 48 | [qcc-28-12769-what-works-what-fails-and-why](notebooks/qcc-28-12769-what-works-what-fails-and-why/) |
+| **C. Analysis / credits notebook** | [qcc-33-2118-who-built-the-public-best-set](https://www.kaggle.com/code/asteriospanoras/qcc-33-2118-who-built-the-public-best-set) | QCC 33.2118 \| Who Built the Public Best Set? | 72 | silver (the owner reports 21+ votes before the rename; not re-checked) | 50 | [qcc-28-12769-what-works-what-fails-and-why](notebooks/qcc-28-12769-what-works-what-fails-and-why/) |
 | **D. "Free CZ Fix" notebook** | [qcc-33-1933-ablation-floors-human-vs-ai-next](https://www.kaggle.com/code/asteriospanoras/qcc-33-1933-ablation-floors-human-vs-ai-next) | QCC 33.1933 \| Ablation, Floors, Human vs AI, Next? | 38 | bronze (earlier state, not re-checked) | 36 | [qcc-27-30-public-frontier-free-cz-fix-in-invsq](notebooks/qcc-27-30-public-frontier-free-cz-fix-in-invsq/) |
 
 Row D, row C and its vote count were read again on 2026-11-25. Notebook C was renamed twice that day in the Kaggle interface (`qcc-33-06908-best-public-score-and-credits` -> `qcc-33-21880-best-public-score-and-credits`, a typo for 33.2118 that was corrected the same afternoon -> `qcc-33-2118-who-built-the-public-best-set`); the title no longer says "best public score", because the files are other authors' and the page is about who built them. the other rows are as of 2026-11-21. Notebook D was renamed three more times in the Kaggle interface (`qcc-33-1-` -> `qcc-33-1439-` -> `qcc-33-1702-` -> `qcc-33-1707-` -> `qcc-33-1933-ablation-floors-human-vs-ai-next`); each time the push folder had to use the new address, otherwise Kaggle would have created a second notebook.
@@ -48,7 +48,7 @@ through the Kaggle interface).
 | 2 | 7-14 | QCC 28.1277 \| Frontier + Finer Chemistry Refit | Balram Srinivasan's DQI, maoxin123's invsqrt, Atakan Aldemir's weights; v13 scored **28.14703** with Grant Prater's DQI | none of the three files |
 | 3 | 15-18 | QCC 28.18084? \| Could Be Top 1 public \| Try It | 4,022-Toffoli loaders (maoxin123), boristown's six-product DQI rebuilt from his patch script; v18 scored **28.18084** | assembly and checks only |
 
-### C. Analysis / credits notebook (versions 1 to 48, 2026-11-11 to 2026-11-25)
+### C. Analysis / credits notebook (versions 1 to 50, 2026-11-11 to 2026-11-25)
 
 | Phase | Versions | Title at the time | Content | Part of it mine |
 |---|---|---|---|---|
@@ -59,7 +59,7 @@ through the Kaggle interface).
 | 5 | 36-38 | QCC 31.68159 / 31.69052 | fast versions of the ThemBones + almondlabs set (v36, 31.68159) and of the Almond Labs set (v38, 31.69052) | none: ties |
 | 6 | 39-41 | QCC 31.69052 \| Best public score and credits | static page: who is responsible for each part of the best score, the ideas in plain words, 24 linked credits | the page and its checks |
 | 7 | 42-45 | QCC 33.06908 \| Best public score and credits | v42 and v43 packaged tonylica's and Rithvik Redrouthu's sets (no submission); v44 combined, per task, Rithvik Redrouthu's invsqrt and chemistry with tonylica's DQI and scored **33.06908**; v45 is the final text with no submission file | none of the files; the choice of files is mine |
-| 8 | 46-48 | QCC 33.06908 -> 33.21880 -> QCC 33.2118 \| Who Built the Public Best Set? | the page now **runs** the three unmodified official verifiers on the 18 files of the 33.21180 set (zhuangbility's output, byte-identical to Areeb Ali's), a DQI salt sweep (default and five more salts) and a table of what 0.01 points are worth; new opening (picture, five cards, staircase chart), updated credits; v46 wrote `submission.zip` and was submitted (**33.21180**, submission 58882874, 2026-11-25 11:02 UTC); v47 and v48 write none (v48 is the final text, with the board score and the salt reading) | the page, the verifier runs and the salt study; the files are other authors' |
+| 8 | 46-50 | QCC 33.06908 -> 33.21880 -> QCC 33.2118 \| Who Built the Public Best Set? | the page **runs** the three unmodified official verifiers on the 18 files of the best public set (v46-48: the 33.21180 set of zhuangbility; v49-50: the 33.24213 set of goodpjw2008, version 18), a DQI salt sweep (default and five more salts), a table of what 0.01 points are worth; new opening (picture, five cards, staircase chart), updated credits. v46 and v49 wrote `submission.zip` and were submitted (**33.21180**, submission 58882874, and **33.24213**, submission 58891190, 2026-11-25 13:58 UTC); v47, v48 and v50 write none (v50 is the final text) | the page, the verifier runs and the salt study; the files are other authors' |
 
 ### D. "Free CZ Fix" notebook (versions 1 to 36, 2026-11-12 to 2026-11-25)
 
@@ -72,7 +72,7 @@ through the Kaggle interface).
 | 5 | 24-36 | QCC 33.1 -> 33.1439 -> 33.1702 -> 33.1707 -> 33.1933 \| Ablation, Floors, Human vs AI, Next? | same explainer; the three-line step: find the best public file set, push a version that writes `submission.zip` from that notebook's output (hash-checked), submit through the notebook, then push a final version with no submission file. Submitted: v25 (**33.13517**), v26 (33.13869), v27 (**33.14394**), v29 to v35 (33.17023, 33.17029 twice, 33.17033, 33.17067, 33.19326, **33.21011**); v28, v36 and the other versions are finals with no submission file; the staircase paragraph was extended each time | the explanation; the files are other authors' |
 
 Versions 16, 18, 21, 22, 25 to 27 and 29 to 35 of D, and versions 42 to 44 of C, wrote a `submission.zip` into their output (needed to submit
-through the notebook), and so did version 46 of C; the final versions (D v19, v20, v23, v24, v28, v36 and C v45, v47, v48) write none.
+through the notebook), and so did versions 46 and 49 of C; the final versions (D v19, v20, v23, v24, v28, v36 and C v45, v47, v48, v50) write none.
 
 ## 3. Where my notebooks stood on the public score
 
@@ -106,6 +106,7 @@ on 2026-11-21 the top of the leaderboard is 33.34845 (team Z³C¹oherence, VERIF
 | 2026-11-24 | D v34 | 33.19326 | ozertuu's SOTA Apex set (reproduced by Areeb Ali in *The 26-Toffoli Cut*): shorter loaders and a refitted table | see section 5 |
 | 2026-11-24 | D v35 | **33.21011** | goodpjw2008's *Shorter Chemistry Loaders* set (ten loaders re-solved by goodpjw2008, five by maoxin123, table `573d10be`); a tie with his public notebook | see section 5 |
 | 2026-11-25 | C v46 | **33.21180** | the 33.21180 set of zhuangbility (Areeb Ali reproduced the same bytes): prvsiyan's invsqrt `6b592145`, DQI `6f78ecdd`, goodpjw2008's 3,333-Toffoli loaders, zhuangbility's table `6ac46e3e`; submission 58882874, a tie with their public notebooks | see section 5 |
+| 2026-11-25 | C v49 | **33.24213** | goodpjw2008's version 18 (*Shorter Chemistry Loaders*, 3,315 Toffolis per pass, new values for the dead words, weights continued from evgendvorkin's refit; invsqrt and DQI as in the 33.21180 set); submission 58891190, a tie with his public notebook | see section 5 |
 
 The full list of 50 submissions (including the October ones) with their descriptions is `kaggle competitions submissions` (VERIFIED on 2026-11-21);
 the scores of my November notebooks are in the [progression table](README.md#my-leaderboard-progression).
@@ -133,10 +134,11 @@ superseded by a better file from another author within days, and **no byte of my
 credit for the **LP angle re-solve as an idea** (Almond Labs, almondlabs, ThemBones), use of the **Atlas** as an
 input, and the **public record of what fails**.
 
-## 5. Credit chain of the 33.21180 set (and of the earlier sets it builds on), so that no credit is lost
+## 5. Credit chain of the 33.24213 set (and of the earlier sets it builds on), so that no credit is lost
 
 | Part | Author (public notebook) | Link |
 |---|---|---|
+| 33.24213 set (version 18): thirteen of the fifteen loaders re-solved or rebuilt (3,315 Toffolis per pass), new values for 1,922 "dead words" (rotations of orbitals with amplitude exactly zero), weights refit continued from evgendvorkin's public refit (lambda_eff 46.914311390), table `71e1c87f`; my notebook C (v49) scored 33.24213 with the same bytes | goodpjw2008 (weights: starting from evgendvorkin) | [QCC \| Shorter Chemistry Loaders \| LB 33.24213](https://www.kaggle.com/code/goodpjw2008/qcc-shorter-chemistry-loaders-lb-33-24213) |
 | 33.21180 set: chemistry table `6ac46e3e` (weights refitted on goodpjw2008's table, lambda_eff 46.914325 to 46.914320967) and the first public notebook with the whole set; my notebook C (v46) scored 33.21180 with the same bytes | zhuangbility; Areeb Ali reproduced the files | [QCC \| V17 Loaders and Our Refit \| LB 33.21180](https://www.kaggle.com/code/zhuangbility/qcc-v17-loaders-and-our-refit-lb-33-21180); [QAI \| Cut the Gates, Keep the Chemistry \| 33.21180](https://www.kaggle.com/code/areebbb/qai-cut-the-gates-keep-the-chemistry-33-21180) |
 | ten chemistry loaders re-solved, 3,333 Toffolis per pass (version 17), loader `angle_k_14` `962ed332` | goodpjw2008 | [QCC \| Shorter Chemistry Loaders \| LB 33.21179](https://www.kaggle.com/code/goodpjw2008/qcc-shorter-chemistry-loaders-lb-33-21179) |
 | invsqrt `6b592145` (37 qubits, 0.03 cheaper than `bb676b95`; what it changes was traced by no one I read) | prvsiyan | [Verifier-Guided Quantum Circuit Optimization](https://www.kaggle.com/code/prvsiyan/verifier-guided-quantum-circuit-optimization) |
@@ -159,7 +161,7 @@ input, and the **public record of what fails**.
 | 31.69 improvements (LEND29, livescan + LDH, loader recompilation, refit and gauge) | Almond Labs | [31.69054 notebook](https://www.kaggle.com/code/almondlabs/almond-labs-qcc-31-69054-demonstrable-advantage) |
 | the 31.68 circuits, the base of all of the above | team ThemBones (Danish Ali) | [Gift from ThemBones](https://www.kaggle.com/code/danishlynxthembones/gift-from-thembones-vqcc-31-67924) |
 
-**A caution about the numbers of the 33.17 to 33.21 sets, now measured.** The DQI file `6f78ecdd` has zero-test cuts: it removes checks that the public tests do not exercise. In notebook C (version 46, run on Kaggle on 2026-11-25) I ran the official DQI verifier on the file at six salts: the default salt draws 4 failed shots out of 102,400 (the three files then score 33.04428), `s1`, `s4` and `s5` draw none (33.21180, the same as the board gave these bytes), `s2` draws one and `s3` two; mean over the six draws 33.15980. So the gap of 0.17 between the local score of the receipts (33.0426) and the board (33.21011, 33.21180) is a draw effect of the DQI file, not a different circuit. The private part of the board uses its own salt that nobody knows; its score for these files can land anywhere in that range, and the board number is the clean-draw case. I did not re-derive the circuits.
+**A caution about the numbers of the 33.17 to 33.21 sets, now measured.** The DQI file `6f78ecdd` has zero-test cuts: it removes checks that the public tests do not exercise. In notebook C (version 46, run on Kaggle on 2026-11-25) I ran the official DQI verifier on the file at six salts: the default salt draws 4 failed shots out of 102,400 (the three files then score 33.04428), `s1`, `s4` and `s5` draw none (33.21180, the same as the board gave these bytes), `s2` draws one and `s3` two; mean over the six draws 33.15980. So the gap of 0.17 between the local score of the receipts (33.0426) and the board (33.21011, 33.21180) is a draw effect of the DQI file, not a different circuit. The private part of the board uses its own salt that nobody knows; its score for these files can land anywhere in that range, and the board number is the clean-draw case. I did not re-derive the circuits. The same six salts on the 33.24213 set (notebook C, version 49) give the same failed-shot counts (4, 0, 1, 2, 0, 0, since the DQI file is the same) and scores from 33.07446 to 33.24213, mean 33.19008; the board gave 33.24213, the clean-draw case.
 
 boristown's 33.10189 set (his notebook, read 2026-11-21) uses the same invsqrt and DQI and a chemistry of his own: a multi-block DAG splice of the loaders, a zero-conflict recompile of loader 6 and an FP64 refit of the weights (T = 13,290). I did not submit it.
 

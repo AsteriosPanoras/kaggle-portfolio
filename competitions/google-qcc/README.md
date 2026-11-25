@@ -142,6 +142,7 @@ the November ones were each made from a public notebook version listed above.
 | 2026-11-24 | 33.19326 (Free CZ notebook v34, 17:06 UTC, submission 58841504; ozertuu's SOTA Apex set, reproduced by Areeb Ali) |
 | 2026-11-24 | **33.21011** (Free CZ notebook v35, 22:10 UTC, submission 58852317; goodpjw2008's Shorter Chemistry Loaders set, a tie with his public notebook) |
 | 2026-11-25 | **33.21180** (notebook C v46, 11:02 UTC, submission 58882874; zhuangbility's set with prvsiyan's invsqrt, goodpjw2008's loaders and a refitted table, a tie with the public notebooks of zhuangbility and Areeb Ali) |
+| 2026-11-25 | **33.24213** (notebook C v49, 13:58 UTC, submission 58891190; goodpjw2008's version 18 with dead-word values and 3,315-Toffoli loaders, a tie with his public notebook) |
 
 ## Evidence that other people used this work
 
