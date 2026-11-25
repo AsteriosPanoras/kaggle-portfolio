@@ -1,6 +1,6 @@
 # QCC 33.2118 | Who Built the Public Best Set? (was "QCC 33.06908 | Best public score and credits" until 2026-11-25; folder name keeps the old slug `qcc-28-12769-what-works-what-fails-and-why`; formerly "What we tried, what failed and Why")
 
-> **State of 2026-11-25 (renamed; versions 46 to 48 added below).** The state line that follows is that of 2026-11-21. Address today: [qcc-33-25060-who-built-the-public-best-set](https://www.kaggle.com/code/asteriospanoras/qcc-33-25060-who-built-the-public-best-set), 72 votes, 48 versions.
+> **State of 2026-11-25 (renamed; versions 46 to 48 added below).** The state line that follows is that of 2026-11-21. Address today: [qcc-33-25060-best-public-merge-and-credits](https://www.kaggle.com/code/asteriospanoras/qcc-33-25060-best-public-merge-and-credits), 72 votes, 48 versions.
 >
 > **State of 2026-11-21.** Address today: [qcc-33-06908-best-public-score-and-credits](https://www.kaggle.com/code/asteriospanoras/qcc-33-06908-best-public-score-and-credits) · 70 votes · 45 versions. The content changed over time (analysis, then fast re-packaging versions, then a static credits page): see [NOTEBOOK_MAP.md](../../NOTEBOOK_MAP.md), section 2C, for what each version range was and what part of it is mine.
 
