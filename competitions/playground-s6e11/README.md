@@ -42,6 +42,14 @@ Read with `kaggle competitions submissions playground-series-s6e11` on 2026-11-1
 
 **These public scores are not evidence of a better model.** The notebook's own text (version 16, and the analysis of versions 37 to 39 for the 0.95504 file) says so: it states that the file was built by steering on a model of the public board and that most of that score will likely not survive the private leaderboard (the private part is 80% of the test rows); it also writes a cross-validation-backed alternative file. The title ("This Score Is Not Real") is that point.
 
+## Update of 2026-11-25
+
+Read on 2026-11-25 (VERIFIED with `kaggle kernels list --mine`, `kaggle competitions submissions playground-series-s6e11`, `kaggle datasets list --mine`). My last submission there is of 2026-11-21.
+
+* **Title and votes.** The notebook is now [S6E11 | LB 0.95552 | Will the Top Survive Private?](https://www.kaggle.com/code/asteriospanoras/s6e11-lb-0-95552-will-the-top-survive-private) with 58 votes (47 on 2026-11-20); same notebook, retitled again. Latest source: [`latest-2026-11-25.ipynb`](notebooks/s6e11-lb-0-95552-will-the-top-survive-private/latest-2026-11-25.ipynb), outputs stripped (last run 2026-11-21 20:53 UTC).
+* **Scores of 2026-11-21** (the last day I submitted): each is **another author's public file taken rank for rank**, shown with an analysis in the notebook: 0.95534 (v44, residual100), 0.95540 (v46, goodpjw2008), 0.95542 (v48, dennis6886), 0.95547 (v49, Areeb Ali), 0.95551 (v50, Malyshev Danil) and **0.95552** (v51, Areeb Ali, submission 58687267). The notebook's own conclusion stays the same: public gaps of this size are mostly noise, and the very top is unlikely to survive on the 80% private part. None of these scores comes from a model of mine.
+* **Dataset** [S6E11 Public Board Files (pinned copies)](https://www.kaggle.com/datasets/asteriospanoras/s6e11-public-board-files): 439 downloads and 2 votes, last updated 2026-11-20.
+
 ## Used by others
 
 (The scan below is the one of 2026-11-17 and was not repeated on 2026-11-20; it refers to the notebook under its titles of that day.)

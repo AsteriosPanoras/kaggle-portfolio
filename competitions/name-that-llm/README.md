@@ -17,6 +17,14 @@ Source: [`notebooks/0-704-which-llms-look-alike-error-map-and-ideas/v16.ipynb`](
 
 Read with `kaggle competitions submissions name-that-llm` on 2026-11-20: the submissions listed there, all of the pipeline above, scored **0.702** (2026-11-17, 2026-11-19 twice) and **0.703** (2026-11-19 21:15 UTC, described as "v14 = lightningv08 v12 pipeline"). The title's 0.704 is the pipeline author's public score; identical code spread over 0.012 across six submissions in one author's table, so one public number says little. I did not re-check the leaderboard rank on 2026-11-20 and make no rank claim, and I did not map each submission to a notebook version.
 
+## Update of 2026-11-25
+
+Read on 2026-11-25 (VERIFIED with `kaggle kernels list --mine` and `kaggle competitions submissions name-that-llm`).
+
+* **Title and votes.** The notebook is now [0.72 | Which LLMs Look Alike? Error Map and Ideas](https://www.kaggle.com/code/asteriospanoras/0-72-which-llms-look-alike-error-map-and-ideas) with 81 votes (27 on 2026-11-20); the earlier address `0-704-which-llms-look-alike-error-map-and-ideas` no longer appears in my list and I take it to be the same notebook retitled (the votes continue), without having checked a redirect. Latest source: [`latest-2026-11-25.ipynb`](notebooks/0-72-which-llms-look-alike-error-map-and-ideas/latest-2026-11-25.ipynb) (outputs stripped; the embedded AI-assisted pictures are replaced by `REMOVED_EMBEDDED_BINARY`; the full notebook is on Kaggle).
+* **What is unchanged:** part 1 (the error map) is my analysis with a simple proxy detector and claims no leaderboard result. **Part 2, the pipeline that produces the score, is another author's public work, copied without change to its code cells**: the notebook's credits name RanJeet Gupta's public notebook *name-that-llm-sibling-odds* (public score 0.720 on its page), which builds on Areeb Ali's 0.719 notebook and on the public datasets of many other authors (listed at the end of the notebook).
+* **Scores.** 21 submissions are listed; the lowest is 0.702 and the highest **0.720** (v30, 2026-11-23, five identical runs; v33 of 2026-11-24 11:01 UTC with the 0.721 code of the same author scored 0.720; v34, submitted 2026-11-24 21:13 UTC, was still pending when I read the list). The score belongs to the pipeline above, not to my analysis. I made no rank check.
+
 ## Used by others
 
 Not scanned.

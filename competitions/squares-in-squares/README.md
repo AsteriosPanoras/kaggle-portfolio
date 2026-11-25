@@ -16,6 +16,14 @@ Public scores of my submissions (read with `kaggle competitions submissions squa
 
 [Squares in Squares - Best Packings](https://www.kaggle.com/datasets/asteriospanoras/squares-in-squares-best) (862 downloads and 1 vote on 2026-11-17): the per-puzzle merge described above, rebuilt as new public outputs appear, . No data file is stored in this repository.
 
+## Update of 2026-11-25
+
+Read on 2026-11-25 (VERIFIED with `kaggle kernels list --mine`, `kaggle competitions submissions squares-in-squares`, `kaggle datasets list --mine`).
+
+* **The notebook changed its purpose and its address.** It is now [Squares in Squares | Live Frontier Atlas](https://www.kaggle.com/code/asteriospanoras/squares-in-squares-live-frontier-atlas) (24 votes; 17 on 2026-11-20). The old address `squares-22-134-play-with-boxes-best-public-lb` no longer appears in my notebook list; I take it to be the same notebook renamed (the votes continue 17 to 24) but I did not check a redirect. The page tracks the public leaderboard frontier: for every n the shortest side any public notebook output reaches, who moved it, and where empty space remains. **It makes no claim of a new packing; every picture is credited to the author of the public output it comes from**, and it writes no submission file unless you copy it and set `WRITE_SUBMISSION = True`. Latest source: [`latest-2026-11-25.ipynb`](notebooks/squares-in-squares-live-frontier-atlas/latest-2026-11-25.ipynb), outputs stripped.
+* **Scores of the submissions of 2026-11-23 and 11-24** (lower is better), each a public output of another author, copied unchanged and credited in the submission label: 22.0925908303 (v47, goodpjw2008), 22.0925539002 (v49, goodpjw2008), 22.0919196715 (v51, sigmaborov), 22.0919131346 (v53, goodpjw2008), 22.0918146444 (v56, Mizero Lucky Gall), 22.0917837688 (v58, Mizero Lucky Gall) and **22.0916426977** (v60, Sargis Khachatryan, 2026-11-24 21:07 UTC, submission 58850527). **None of these packings is mine**; these submissions do not contain my basin-hopping edits of 2026-11-15 to 2026-11-17.
+* **Dataset** [Squares in Squares - Best Packings](https://www.kaggle.com/datasets/asteriospanoras/squares-in-squares-best): 3,587 downloads and 2 votes (862 and 1 on 2026-11-17), last updated 2026-11-24.
+
 ## Used by others
 
 Found on 2026-11-17 by reading the latest source and Kaggle metadata of the 177 public notebooks of the competition (all of the list that `kaggle kernels list --competition squares-in-squares` returns, by run date, hotness and votes; sources with `kaggle kernels pull`), by my name, my account name and the slugs of my notebook and dataset, plus `kaggle kernels list --dataset asteriospanoras/squares-in-squares-best`. Outputs were not downloaded. **9 notebooks by 6 other authors**:
