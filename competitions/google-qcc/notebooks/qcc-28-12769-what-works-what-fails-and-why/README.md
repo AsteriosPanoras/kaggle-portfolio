@@ -108,6 +108,7 @@ All versions are public on Kaggle (open the notebook, then "Version history"). T
 | 50 | [v50.ipynb](v50.ipynb) | — | — | — | final text with the board score and the salt reading for the 33.24213 set; no submission file in the output | the page and the verifier runs; files are other authors' |
 | 51 | — | — | — | — | the merge page: chemistry of goodpjw2008 v19 + DQI `b183c793` of logiclab + invsqrt `6b592145`; failed in one minute (builder variable inside notebook code) | — |
 | 52 | — | — | — | **33.25060** (submission 58900425, 2026-11-25 17:05 UTC) | same page, fixed; wrote `submission.zip`; submitted | other authors' files; the merge is mine |
+| 54-55 | — | — | — | **33.25229** (submission 58908357, 2026-11-25 20:18 UTC) | same page; v54 wrote `submission.zip` and was submitted, v55 has no output and carries the score in the text | goodpjw2008's version 20 chemistry (loader 14 one Toffoli shorter) with logiclab's DQI | one submission left that day |
 | 53 | [v53.ipynb](v53.ipynb) | — | — | — | final text with the board score and the salt reading of the merge; no submission file in the output | the page and the verifier runs |
 
 ## Used by others (0 public notebooks)

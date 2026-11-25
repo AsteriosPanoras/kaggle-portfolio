@@ -109,6 +109,7 @@ on 2026-11-21 the top of the leaderboard is 33.34845 (team Z³C¹oherence, VERIF
 | 2026-11-25 | C v46 | **33.21180** | the 33.21180 set of zhuangbility (Areeb Ali reproduced the same bytes): prvsiyan's invsqrt `6b592145`, DQI `6f78ecdd`, goodpjw2008's 3,333-Toffoli loaders, zhuangbility's table `6ac46e3e`; submission 58882874, a tie with their public notebooks | see section 5 |
 | 2026-11-25 | C v49 | **33.24213** | goodpjw2008's version 18 (*Shorter Chemistry Loaders*, 3,315 Toffolis per pass, new values for the dead words, weights continued from evgendvorkin's refit; invsqrt and DQI as in the 33.21180 set); submission 58891190, a tie with his public notebook | see section 5 |
 | 2026-11-25 | C v52 | **33.25060** | merge: goodpjw2008's version 19 chemistry (3,310 Toffolis per pass, T 13,120, lambda_eff 46.914304) + logiclab's DQI `b183c793` + prvsiyan's invsqrt `6b592145`; submission 58900425; +0.00003 over goodpjw2008's own 33.25057, inside the board's salt noise | see section 5 |
+| 2026-11-25 | C v54 | **33.25229** | merge: goodpjw2008's version 20 chemistry (3,309 Toffolis per pass, T 13,118, lambda_eff 46.914304, table `0043d423`, loader 14 `883662fd`) + logiclab's DQI `b183c793` + prvsiyan's invsqrt `6b592145`; submission 58908357; final no-output text is v55 | the notebook's own run |
 
 The full list of 50 submissions (including the October ones) with their descriptions is `kaggle competitions submissions` (VERIFIED on 2026-11-21);
 the scores of my November notebooks are in the [progression table](README.md#my-leaderboard-progression).
