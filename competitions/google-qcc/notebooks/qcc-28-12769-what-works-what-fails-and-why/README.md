@@ -1,5 +1,7 @@
-# QCC 33.06908 | Best public score and credits (folder name keeps the old slug `qcc-28-12769-what-works-what-fails-and-why`; formerly "What we tried, what failed and Why")
+# QCC 33.2118 | Who Built the Public Best Set? (was "QCC 33.06908 | Best public score and credits" until 2026-11-25; folder name keeps the old slug `qcc-28-12769-what-works-what-fails-and-why`; formerly "What we tried, what failed and Why")
 
+> **State of 2026-11-25 (renamed; versions 46 to 48 added below).** The state line that follows is that of 2026-11-21. Address today: [qcc-33-2118-who-built-the-public-best-set](https://www.kaggle.com/code/asteriospanoras/qcc-33-2118-who-built-the-public-best-set), 72 votes, 48 versions.
+>
 > **State of 2026-11-21.** Address today: [qcc-33-06908-best-public-score-and-credits](https://www.kaggle.com/code/asteriospanoras/qcc-33-06908-best-public-score-and-credits) · 70 votes · 45 versions. The content changed over time (analysis, then fast re-packaging versions, then a static credits page): see [NOTEBOOK_MAP.md](../../NOTEBOOK_MAP.md), section 2C, for what each version range was and what part of it is mine.
 
 
@@ -99,6 +101,9 @@ All versions are public on Kaggle (open the notebook, then "Version history"). T
 | 43 | — | — | — | — | the 32.86114 set of Rithvik Redrouthu as source (no submission made from it) | other authors' files |
 | 44 | — | — | — | **33.06908** (submission 58643150, 2026-11-21 00:53 UTC) | per task: invsqrt `d2148a7c` and chemistry from Rithvik Redrouthu, DQI `4b572141` from tonylica; submitted | other authors' files; the combination is mine; a tie with three teams on the board |
 | 45 | [v45.ipynb](v45.ipynb) | 22 | 29 | — | final text: 33.06908 page, `WRITE_SUBMISSION = False`, no submission file in the output | other authors' files |
+| 46 | — | — | — | **33.21180** (submission 58882874, 2026-11-25 11:02 UTC) | the 33.21180 set of zhuangbility (invsqrt `6b592145`, DQI `6f78ecdd`, loaders of goodpjw2008, table `6ac46e3e`); the page runs the official verifiers and a DQI salt sweep; submitted | other authors' files; a tie with the public notebooks |
+| 47 | — | — | — | — | final text, same code, `WRITE_SUBMISSION = False` | — |
+| 48 | [v48.ipynb](v48.ipynb) | — | — | — | final text with the board score, new opening (picture, cards, staircase chart), table of what 0.01 points are worth, salt reading; no submission file in the output | the page and the verifier runs; files are other authors' |
 
 ## Used by others (0 public notebooks)
 
