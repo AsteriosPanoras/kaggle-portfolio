@@ -131,6 +131,16 @@ the November ones were each made from a public notebook version listed above.
 | 2026-11-21 | **33.10186** (Free CZ notebook v18, 11:16 UTC, submission 58663801; goodpjw2008's file set, a tie with his public notebook of the same score; boristown's notebook of that day reports 33.10189) |
 | 2026-11-21 | 33.10185 (Free CZ notebook v21, 13:03 UTC, submission 58669649; boristown's set, 33.10189 in his notebook) |
 | 2026-11-21 | **33.13514** (Free CZ notebook v22, 13:46 UTC, submission 58670546; maoxin123's 33.135 set, a tie with his public notebook) |
+| 2026-11-21 | 33.13517 (Free CZ notebook v25, 16:26 UTC, submission 58677835; goodpjw2008's set (maoxin123's loaders, refitted table)) |
+| 2026-11-22 | 33.13869 (Free CZ notebook v26, 00:16 UTC, submission 58693669; Areeb Ali's 3,372-Toffoli loaders) |
+| 2026-11-22 | **33.14394** (Free CZ notebook v27, 10:26 UTC, submission 58716233; goodpjw2008's set with the three-T invsqrt (varianceofx, mizeroluckygall); the public best when submitted) |
+| 2026-11-22 | 33.17023 (Free CZ notebook v29, 14:25 UTC, submission 58725495; maoxin123's 3,357-Toffoli loaders) |
+| 2026-11-22 | 33.17029 (Free CZ notebook v30, 16:01 UTC, submission 58729760; Areeb Ali's set) |
+| 2026-11-22 | 33.17029 (Free CZ notebook v31, 21:59 UTC, submission 58743965; ozertuu's set (33.17033 in his notebook)) |
+| 2026-11-23 | 33.17033 (Free CZ notebook v32, 00:37 UTC, submission 58750056; evgendvorkin's set) |
+| 2026-11-23 | 33.17067 (Free CZ notebook v33, 08:23 UTC, submission 58768699; goodpjw2008's DQI with zero-test cuts) |
+| 2026-11-24 | 33.19326 (Free CZ notebook v34, 17:06 UTC, submission 58841504; ozertuu's SOTA Apex set, reproduced by Areeb Ali) |
+| 2026-11-24 | **33.21011** (Free CZ notebook v35, 22:10 UTC, submission 58852317; goodpjw2008's Shorter Chemistry Loaders set, a tie with his public notebook) |
 
 ## Evidence that other people used this work
 

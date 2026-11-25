@@ -2,9 +2,9 @@
 
 > **State of 2026-11-21.** This is the notebook that began as the invsqrt dead-write fix (bronze medal). It was reused on 2026-11-20 and 2026-11-21: versions 7 to 15 became the page *What we tried, what failed and why*, and versions 16 to 23 an explainer. See [NOTEBOOK_MAP.md](../../NOTEBOOK_MAP.md), section 2D.
 
-Kaggle: [https://www.kaggle.com/code/asteriospanoras/qcc-33-1-ablation-floors-human-vs-ai-next](https://www.kaggle.com/code/asteriospanoras/qcc-33-1-ablation-floors-human-vs-ai-next) · medal: **bronze** · votes: 15 (2026-11-21) · versions: 23
+Kaggle: [https://www.kaggle.com/code/asteriospanoras/qcc-33-1933-ablation-floors-human-vs-ai-next](https://www.kaggle.com/code/asteriospanoras/qcc-33-1933-ablation-floors-human-vs-ai-next) · medal: **bronze** · votes: 38 (2026-11-25) · versions: 36
 
-Addresses in order: `qcc-27-30-public-frontier-free-cz-fix-in-invsq` -> `qcc-31-68-what-we-tried-what-failed-and-why` -> `qcc-31-69052-what-we-tried-what-failed-and-why` -> `qcc-33-10-how-the-score-is-built-where-to-gain` -> **`qcc-33-1-ablation-floors-human-vs-ai-next`** (renamed in the Kaggle interface on 2026-11-20 and 2026-11-21; I did not check whether the older addresses redirect).
+Addresses in order: `qcc-27-30-public-frontier-free-cz-fix-in-invsq` -> `qcc-31-68-what-we-tried-what-failed-and-why` -> `qcc-31-69052-what-we-tried-what-failed-and-why` -> `qcc-33-10-how-the-score-is-built-where-to-gain` -> **`qcc-33-1933-ablation-floors-human-vs-ai-next`** (after `qcc-33-1-`, `qcc-33-1439-`, `qcc-33-1702-` and `qcc-33-1707-ablation-floors-human-vs-ai-next`; renamed in the Kaggle interface from 2026-11-20 to 2026-11-25; I did not check whether the older addresses redirect).
 
 ## Every public version
 
@@ -31,6 +31,8 @@ All versions are public on Kaggle (open the notebook, then "Version history"). T
 | 21 | — | 96 | — | 33.10185 (submission 58669649, 2026-11-21 13:03 UTC) | boristown's set (33.10189 in his notebook): same invsqrt and DQI, chemistry with a multi-block DAG splice, recompiled loader 6 and an FP64 refit; submission file written to submit it | other authors' files; the board gave 33.10185, a tie within noise with goodpjw2008's set |
 | 22 | — | 96 | — | **33.13514** (submission 58670546, 2026-11-21 13:46 UTC) | maoxin123's 33.135 set: Rithvik Redrouthu's invsqrt, tonylica's DQI and maoxin123's 15 recompiled loaders (3,375 Toffolis per pass) with refitted weights; submission file written to submit it | other authors' files; a tie with maoxin123's public notebook (33.13514), the public best that day |
 | 23 | [v23.ipynb](v23.ipynb) | 96 | 399 | — | final version: explainer, `WRITE_SUBMISSION = False`, no submission file in the output; score text 33.13514 | the explanation, the arithmetic and the experiments are mine |
+| 24-35 | — | 96 | — | v25 33.13517 (58677835), v26 33.13869 (58693669), v27 **33.14394** (58716233), v29 33.17023 (58725495), v30 33.17029 (58729760), v31 33.17029 (58743965), v32 33.17033 (58750056), v33 33.17067 (58768699), v34 33.19326 (58841504), v35 **33.21011** (58852317) | each of these wrote `submission.zip` from a public file set of other authors (hash-checked, attached with `kernel_sources`) so that it could be submitted; v24 and v28 are final versions with no submission file | other authors' files; see the credit chain in the map, section 5 |
+| 36 | [v36.ipynb](v36.ipynb) | 96 | 399 | — | final version: explainer, `WRITE_SUBMISSION = False`, no submission file in the output; text names goodpjw2008's 33.21011 set and the board score 33.21011 | the explanation, the arithmetic and the experiments are mine |
 
 ## Used by others (34 public notebooks)
 
