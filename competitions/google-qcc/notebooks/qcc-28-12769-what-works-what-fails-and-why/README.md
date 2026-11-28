@@ -1,6 +1,6 @@
 # QCC 33.2118 | Who Built the Public Best Set? (was "QCC 33.06908 | Best public score and credits" until 2026-11-25; folder name keeps the old slug `qcc-28-12769-what-works-what-fails-and-why`; formerly "What we tried, what failed and Why")
 
-> **State of 2026-11-25 (renamed; versions 46 to 48 added below).** The state line that follows is that of 2026-11-21. Address today: [qcc-33-25060-best-public-merge-and-credits](https://www.kaggle.com/code/asteriospanoras/qcc-33-25060-best-public-merge-and-credits), 72 votes, 48 versions.
+> **State of 2026-11-25 (renamed; versions 46 to 48 added below).** The state line that follows is that of 2026-11-21. Address today: [qcc-33-25229-best-public-merge-and-credits](https://www.kaggle.com/code/asteriospanoras/qcc-33-25229-best-public-merge-and-credits), 72 votes, 48 versions.
 >
 > **State of 2026-11-21.** Address today: [qcc-33-06908-best-public-score-and-credits](https://www.kaggle.com/code/asteriospanoras/qcc-33-06908-best-public-score-and-credits) · 70 votes · 45 versions. The content changed over time (analysis, then fast re-packaging versions, then a static credits page): see [NOTEBOOK_MAP.md](../../NOTEBOOK_MAP.md), section 2C, for what each version range was and what part of it is mine.
 
@@ -109,6 +109,7 @@ All versions are public on Kaggle (open the notebook, then "Version history"). T
 | 51 | — | — | — | — | the merge page: chemistry of goodpjw2008 v19 + DQI `b183c793` of logiclab + invsqrt `6b592145`; failed in one minute (builder variable inside notebook code) | — |
 | 52 | — | — | — | **33.25060** (submission 58900425, 2026-11-25 17:05 UTC) | same page, fixed; wrote `submission.zip`; submitted | other authors' files; the merge is mine |
 | 54-55 | — | — | — | **33.25229** (submission 58908357, 2026-11-25 20:18 UTC) | same page; v54 wrote `submission.zip` and was submitted, v55 has no output and carries the score in the text | goodpjw2008's version 20 chemistry (loader 14 one Toffoli shorter) with logiclab's DQI | one submission left that day |
+| 56-59 | — | — | — | **33.29012** (submission 59027300, 2026-11-28; v56 scored 33.29008) | same page, rewritten for goodpjw2008's version 32 then 33 files; v56 and v58 wrote `submission.zip` and were submitted, v59 has no output and carries the score; v57 failed (his notebook was renamed, so its source was gone) | other authors' files | nothing left to merge |
 | 53 | [v53.ipynb](v53.ipynb) | — | — | — | final text with the board score and the salt reading of the merge; no submission file in the output | the page and the verifier runs |
 
 ## Used by others (0 public notebooks)
