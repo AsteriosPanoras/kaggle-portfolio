@@ -146,6 +146,7 @@ the November ones were each made from a public notebook version listed above.
 | 2026-11-25 | **33.25060** (notebook C v52, 17:05 UTC, submission 58900425; a merge of goodpjw2008's version 19 chemistry, logiclab's DQI `b183c793` and prvsiyan's invsqrt: +0.00003 over goodpjw2008's own 33.25057) |
 | 2026-11-25 | **33.25229** (notebook C v54, 20:18 UTC, submission 58908357; the same merge with goodpjw2008's version 20 chemistry (loader 14 one Toffoli shorter) and logiclab's DQI `b183c793`: +0.00003 over goodpjw2008's own 33.25226) |
 | 2026-11-28 | **33.29012** (notebook C v58, submission 59027300; nothing left to merge, the page carries goodpjw2008's version 33 files: invsqrt `b08370f2` by evgendvorkin after maoxin123, DQI `b183c793`, chemistry with 3,304 Toffolis per pass; v56 with his version 32 scored 33.29008, submission 59023833) |
+| 2026-11-28 | **33.31053** (notebook C v60, submission 59066941; nothing left to merge, the page carries goodpjw2008's 33.29024 chemistry and DQI `b183c793` with maoxin123's new invsqrt `6709af70` at 60,658.40; the same 18 files as the public merge of Konrad, 33.31051) |
 
 ## Evidence that other people used this work
 

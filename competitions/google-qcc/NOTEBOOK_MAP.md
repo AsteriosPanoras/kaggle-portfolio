@@ -111,6 +111,7 @@ on 2026-11-21 the top of the leaderboard is 33.34845 (team Z³C¹oherence, VERIF
 | 2026-11-25 | C v52 | **33.25060** | merge: goodpjw2008's version 19 chemistry (3,310 Toffolis per pass, T 13,120, lambda_eff 46.914304) + logiclab's DQI `b183c793` + prvsiyan's invsqrt `6b592145`; submission 58900425; +0.00003 over goodpjw2008's own 33.25057, inside the board's salt noise | see section 5 |
 | 2026-11-25 | C v54 | **33.25229** | merge: goodpjw2008's version 20 chemistry (3,309 Toffolis per pass, T 13,118, lambda_eff 46.914304, table `0043d423`, loader 14 `883662fd`) + logiclab's DQI `b183c793` + prvsiyan's invsqrt `6b592145`; submission 58908357; final no-output text is v55 | the notebook's own run |
 | 2026-11-28 | C v58 | **33.29012** | the 18 files of goodpjw2008's version 33 (T 13,108, lambda_eff 46.912012524, invsqrt `b08370f2`, DQI `b183c793`); submission 59027300; v56 (his version 32) scored 33.29008 (59023833); final no-output text is v59 | the notebook's own run |
+| 2026-11-28 | C v60 | **33.31053** | goodpjw2008's 33.29024 chemistry (T 13,108, lambda_eff 46.911489669) and DQI `b183c793` with maoxin123's invsqrt `6709af70` (cost 60,658.40); submission 59066941; final no-output text is v61 | the notebook's own run |
 
 The full list of 50 submissions (including the October ones) with their descriptions is `kaggle competitions submissions` (VERIFIED on 2026-11-21);
 the scores of my November notebooks are in the [progression table](README.md#my-leaderboard-progression).
